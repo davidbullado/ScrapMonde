@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Article	../api.py	/^class Article(Resource):$/;"	kind:class	line:23
+News	../api.py	/^class News(Resource):$/;"	kind:class	line:13
+api	../api.py	/^api = Api(app)$/;"	kind:variable	line:9
+api.py	../api.py	1;"	kind:file	line:1
+app	../api.py	/^app = Flask(__name__)$/;"	kind:variable	line:7
+beautyprint.py	../beautyprint.py	1;"	kind:file	line:1
+buf	../getter.py	/^    buf = scrap_src.read()$/;"	kind:variable	line:14
+digest_article	../scrap.py	/^def digest_article(html):$/;"	kind:function	line:11
+get	../api.py	/^    def get(self, hlink):$/;"	kind:member	line:24
+get	../api.py	/^    def get(self, page=1):$/;"	kind:member	line:14
+getter.py	../getter.py	1;"	kind:file	line:1
+hasher	../getter.py	/^hasher = hashlib.md5()$/;"	kind:variable	line:12
+hashsources	../getter.py	/^    hashsources = hasher.digest()$/;"	kind:variable	line:16
+is_good_response	../getter.py	/^def is_good_response(resp):$/;"	kind:function	line:61
+log_error	../getter.py	/^def log_error(e):$/;"	kind:function	line:71
+my_filename	../getter.py	/^def my_filename(url):$/;"	kind:function	line:25
+my_parsedate	../getter.py	/^def my_parsedate(text):$/;"	kind:function	line:18
+printerr	../beautyprint.py	/^def printerr(f_arg, *argv, **kwargs):$/;"	kind:function	line:4
+scrap.py	../scrap.py	1;"	kind:file	line:1
+scrap_article	../scrap.py	/^def scrap_article(url):$/;"	kind:function	line:19
+scrap_news	../scrap.py	/^def scrap_news(page=1):$/;"	kind:function	line:24
+simple_get	../getter.py	/^def simple_get(url):$/;"	kind:function	line:31
+urlList	../api.py	/^urlList = {}$/;"	kind:variable	line:11

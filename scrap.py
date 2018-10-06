@@ -8,14 +8,38 @@ from hashlib import md5
 from time import strftime, gmtime
 
 def digest_article(html):
+    try:
+        infos = json.loads(html.find('script', type="application/ld+json").text)
+    except:
+        head = html.head
+        infos.headline = head.find('meta', property="og:title")
+    art = html.find(itemprop="articleBody")
+    try:
+        art.img.extract()
+    except:
+        pass
+    try:
+        art.script.extract()
+    except:
+        pass
+    try:
+        art.find_all('a', class_="conjug").extract()
+    except:
+        pass
+    try:
+        art.find_all('iframe').extract()
+    except:
+        pass
+    for tag in art.find_all(True):
+        if tag.name not in ['a'] or ("class" in tag.attrs and 'conjug' in tag.attrs["class"]):
+            tag.attrs = {}
     
-    infos = json.loads(html.find('script',type="application/ld+json").text)
-    art = html.find(id="articleBody")
-    art.img.extract()
-    infos['body'] = art.text
+    infos['body'] = str(art)
+
     return infos
 
 def scrap_article(url):
+    print("scrap_article "+url)
     raw_html = simple_get(url)
     html = BeautifulSoup(raw_html, 'html.parser')  
     return digest_article(html)
@@ -70,4 +94,5 @@ def scrap_news(page=1):
 
 
 if __name__ == "__main__":
-    scrap_article('https://www.lemonde.fr/europe/article/2018/09/29/moscou-diffuse-une-nouvelle-photo-du-cineaste-en-greve-de-la-faim-oleg-sentsov_5362172_3214.html')
+    #scrap_article('https://www.lemonde.fr/europe/article/2018/09/29/moscou-diffuse-une-nouvelle-photo-du-cineaste-en-greve-de-la-faim-oleg-sentsov_5362172_3214.html')
+    scrap_article('https://www.lemonde.fr/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html')

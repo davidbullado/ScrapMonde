@@ -1,4 +1,4 @@
-
+import sys
 from flask import Flask, request
 from flask_restful import Resource, Api
 from flask_cors import CORS
@@ -24,10 +24,10 @@ class Article(Resource):
     def get(self, hlink):
         try:
             url = urlList[hlink]
-            print (url)
             return scrap_article(url)
         except KeyError:
-            return {'body':'Please reload'}
+            print(sys.exc_info()[0])
+            return {'body': 'Please Reload'}
 
 api.add_resource(Article, '/article/<hlink>')
 

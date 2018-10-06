@@ -37,7 +37,11 @@ def simple_get(url):
     filename = "cache/"+my_filename(url)
 
     if path.isfile(filename):
-        content_mt = my_parsedate(head(url).headers["Last-Modified"])
+        content_mt = 0
+        try:
+            content_mt = my_parsedate(head(url).headers["Last-Modified"])
+        except KeyError:
+            pass
         if (content_mt == path.getmtime(filename)):
             f = open(filename,"r")
             return f.read()
@@ -45,10 +49,11 @@ def simple_get(url):
     try:
         with closing(get(url, stream=True)) as resp:
             if is_good_response(resp):
-                lastmodified = my_parsedate(resp.headers["Last-Modified"])
                 f = open(filename,"w+")
                 f.write(resp.text)
-                utime(filename, (lastmodified,lastmodified))
+                if "Last-Modified" in resp.headers:
+                    lastmodified = my_parsedate(resp.headers["Last-Modified"])
+                    utime(filename, (lastmodified,lastmodified))
                 return resp.text
             else:
                 return None

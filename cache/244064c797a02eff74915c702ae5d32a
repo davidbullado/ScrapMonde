@@ -1,0 +1,1928 @@
+<!doctype html>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if gte IE 9]><!-->
+<html lang="fr">
+<!--<![endif]-->
+
+<head>
+<script type="text/javascript">
+var kameleoonLoadingTimeout = 1000;
+var kameleoonStartLoadTime = new Date().getTime();
+if (!document.getElementById("kameleoonLoadingStyleSheet") && !window.kameleoonDisplayPageTimeOut) {
+    var kameleoonS = document.getElementsByTagName("script")[0];
+    var kameleoonCc = "* { visibility: hidden !important; background-image: none !important; }";
+    var kameleoonStn = document.createElement("style");
+    kameleoonStn.type = "text/css";
+    kameleoonStn.id = "kameleoonLoadingStyleSheet";
+    if (kameleoonStn.styleSheet) {
+        kameleoonStn.styleSheet.cssText = kameleoonCc;
+    } else {
+        kameleoonStn.appendChild(document.createTextNode(kameleoonCc));
+    }
+    kameleoonS.parentNode.insertBefore(kameleoonStn, kameleoonS);
+    window.kameleoonDisplayPage = function() {
+        if (kameleoonStn.parentNode) {
+            kameleoonStn.parentNode.removeChild(kameleoonStn);
+        }
+    };
+    window.kameleoonDisplayPageTimeOut = window.setTimeout(window.kameleoonDisplayPage, kameleoonLoadingTimeout);
+}
+</script>
+<script src="//static.kameleoon.com/css/customers/r9u0567aww/0/kameleoon.js" async></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MS62MT');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script>
+if("undefined"===typeof lmd||!lmd)lmd={};(function(a,b){var d=a.onerror,c="";a.onerror=function(a,e,f){d&&d.apply(this,[a,e,f]);c=e+" line:"+f+" : "+a;"undefined"!==typeof b.jserrors&&"function"===typeof b.jserrors.push?10>=b.jserrors.length&&b.jserrors.push(c):b.jserrors=[c]}})(this,lmd);
+</script>
+
+
+<!-- context -->
+<script>if("undefined"===typeof lmd||!lmd)lmd={};lmd.context={"pageType":"Autre","rubrique":null,"rubriques":null,"element":null,"campagne":null,"page":{"advert":{"active":true,"colonne_light":false,"adserver":"smartadserver","smart":{"site":"50270","page":548158,"query":null,"all_formats":"21489,21490,21935,21486,21482,21488,21483,21484,21485,25258,25259,25260,21936,21487,21492,21493,21938,21937,23371,23885,21488,15187,15188,29752,29753,62479,62480,62483,62479,62480,62483","domain":"ww690.smartadserver.com","render_mode":0}},"dfp":{"tag":"\/128139881\/LM_lemonde\/divers\/divers\/rg\/","formats":"{}","device":"desktop","section":"divers"},"xiti":{"xtpage":null,"xtpagetype":null,"xtn2":null,"xtsite":"43260","xt_multc":null,"xt_abmv":null,"xt_chains":null,"xtcustom":{},"xt_tag":null,"xtergo":null,"xtsites":{"www":"43260","mobile":"489989"},"xtbreakpoints":{"www":{"min":768},"mobile":{"min":0,"max":767}},"x12":null,"x2":null,"x5":null}},"application":"www"};lmd.context.item = null</script>
+
+<!-- Mobile redirect, lmd conf, registered redirect -->
+<script src="//s1.lemde.fr/bootstrap/list-early-load.js"></script>
+
+<title>Le Monde.fr - Actualit&eacute; &agrave; la Une</title>
+
+<meta name="description" content="Le Monde.fr - 1er site d'information. Les articles du journal et toute l'actualit&eacute; en continu : International, France, Soci&eacute;t&eacute;, Economie, Culture, Environnement, Blogs ...">
+<meta name="robots" content="index, follow, noarchive">
+
+
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="application-name" content="Le Monde.fr">
+<meta name="DC.language" content="fr">
+<meta name="DC.format" content="text/html">
+<meta name="DC.publisher" content="Le Monde">
+<meta name="DC.identifier" content="ISSN 1950-6244">
+
+<meta name="msapplication-tooltip" content="Le Monde.fr">
+<meta name="msapplication-navbutton-color" content="#000">
+<meta name="msapplication-starturl" content="/">
+<meta name="msapplication-task" content="name=A la Une;action-uri=/;icon-uri=/medias/web/ico/ie9-pin/une.ico">
+<meta name="msapplication-task" content="name=International;action-uri=/international/;icon-uri=/medias/web/ico/ie9-pin/international.ico">
+<meta name="msapplication-task" content="name=Politique;action-uri=/politique/;icon-uri=/medias/web/ico/ie9-pin/politique.ico">
+<meta name="msapplication-task" content="name=Economie;action-uri=/economie/;icon-uri=/medias/web/ico/ie9-pin/economie.ico">
+<meta name="msapplication-task" content="name=Sport;action-uri=/sport/;icon-uri=/medias/web/ico/ie9-pin/sport.ico">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s1.lemde.fr/medias/web/1.2.708/ico/apple/icon-72.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://s1.lemde.fr/medias/web/1.2.708/ico/apple/icon-144.png">
+
+<meta property="fb:app_id" content="166878320861">
+
+	<meta property="og:site_name" content="Le Monde.fr" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:title" content="Le Monde.fr - Actualités et Infos en France et dans le monde" />
+	<meta property="og:description" content="Le Monde.fr - 1er site d'information. Les articles du journal et toute l'actualité en continu : International, France, Société, Economie, Culture, Environnement, Blogs ..." />
+	<meta property="og:url" content="https://www.lemonde.fr/actualite-en-continu/1.html" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="1880" />
+	<meta property="og:image:height" content="984" />
+	<meta property="og:image" content="https://s1.lemde.fr/medias/web/1.2.708/img/placeholder/default.png" />
+
+<meta property="al:web:url" content="https://www.lemonde.fr/actualite-en-continu/1.html">
+<meta property="al:web:should_fallback" content="true">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lemondefr">
+<meta name="twitter:url" content="https://www.lemonde.fr/actualite-en-continu/1.html">
+<meta name="twitter:title" content="Le Monde.fr - Actualités et Infos en France et dans le monde">
+<meta name="twitter:description" content="Le Monde.fr - 1er site d'information. Les articles du journal et toute l'actualité en continu : International, France, Société, Economie, Culture, Environnement, Blogs ...">
+
+
+
+<link rel="shortcut icon" href="https://s1.lemde.fr/medias/web/1.2.708/ico/favicon.ico">
+<link rel="stylesheet" type="text/css" href="//s1.lemde.fr/bootstrap/www/6113a6a4a88f2e4bba848ae9ce6e2e58.css?m[]=normalize%40screen&m[]=fonts%40screen&m[]=grille%40screen&m[]=base%40screen&m[]=header%40screen&m[]=footer%40screen&m[]=rubrique%40screen&m[]=article%40screen&m[]=friends%2Fpaves%40screen&m[]=col_droite%40screen&m[]=ticker%40screen&m[]=couleurs%40screen&m[]=marketing%2Fmeter%40screen&m[]=evenementiel%2Fcoupe-du-monde%40screen&m[]=elections%2Famericaines%40screen&m[]=friends%2Fnewsweb%2Fbase%40screen&m[]=friends%2Fnewsweb%2Fdatabox%40screen&m[]=friends%2Fnewsweb%2Flivescore%40screen&m[]=friends%2Fnewsweb%2Flivescore_tennis%40screen">
+
+        <link rel="canonical" href="https://www.lemonde.fr/actualite-en-continu/1.html">
+        <link rel="alternate" href="https://mobile.lemonde.fr/actualite-en-continu/1.html" media="only screen and (max-width: 640px)">
+<link rel="next" href="https://www.lemonde.frwww.lemonde.fr/actualite-en-continu/2.html">
+
+
+<script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/require/core/current/require.js"></script>
+<script src="//s1.lemde.fr/bootstrap/www/main.js"></script>
+
+<script>
+if(-1 === requirejs.s.contexts._.config.baseUrl.indexOf('https://s1.lemde.fr')) { require = function(){}; }
+</script>
+
+
+<script>
+"undefined"!==typeof lmd&&lmd||(lmd={});
+(function(e,d){var f=function(b,a){var c;if(void 0===a||null===a||""===a)return!0;for(c=0;c<b.requireModules.length;c++)if(b.requireModules[c].match(a))return!0;return!1},g=function(b,a){var c;for(c=0;c<d.requirejs.error_history.length;c++)f(d.requirejs.error_history[c],a)&&b.call(this,d.requirejs.error_history[c])},h=function(b){var a,c=d.requirejs.handlers;for(a=0;a<c.length;a++)f(b,c[a].regex)&&c[a].fn.call(this,b)};d.requirejs={handlers:[],error_history:[],addHandler:function(b,a,c){"undefined"!==
+typeof c&&c&&g(b,a);d.requirejs.handlers.push({fn:b,regex:a})}};requirejs.onError=function(b){var a=b.originalError&&b.originalError.target||{};h(b);d.requirejs.error_history.push(b);if("function"===typeof e.onerror)e.onerror("REQUIRE ERROR ("+b.requireType+") ["+a.src+"]",a.baseURI,"N/A");else throw b;}})(this,lmd);
+</script>
+
+
+<!--[if IE]>
+    <script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/ecma/core/262/base64.js"></script>
+<![endif]-->
+<!--[if lte IE 9]>
+   <script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/polyfill/placeholder.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+   <script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/html5shiv/html5.js"></script>
+   <script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/ecma/core/262/array.js"></script>
+<![endif]-->
+
+<!--[if lte IE 7]>
+   <script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/ecma/core/262/json.js"></script>
+<![endif]-->
+<script>require(['lmd.afrique.cookie']);</script>
+
+<script>
+   (function (d) {
+      var script = d.createElement('script');
+      var trange = (new Date()).getTime().toString().slice(0, -5);
+      script.src = 'https://s1.lemde.fr/medias/web/1.2.708/js/lmd/module/meter/toggle-off.js?' + trange;
+      d.write(script.outerHTML);
+   })(document);
+
+   require(['lmd.meter'], function (loader) {
+      loader.launch();
+   });
+</script>
+
+<script>var _sf_startpt = (new Date()).getTime()</script>
+
+<script>
+require(["lib/require/plugin/domReady","lmd/util/link"],function(a,b){a(function(){b.parse()})});
+
+require(["lib/require/plugin/domReady","lmd/ui/plier-deplier"],function(a,b){a(function(){b.parse()})});
+</script>
+
+<script>if("undefined"===typeof lmd||!lmd)lmd={};lmd.pic=function(a){require(["lmd/module/retina"],function(b){b(a)})};lmpic=lmd.pic;</script><script>
+    if (typeof lmd === 'undefined' || !lmd) {
+        lmd = {};
+    }
+
+    lmd.onload = function(fn) {
+        if (document.readyState !== 'loading') {
+            fn();
+        } else if (document.addEventListener) {
+            document.addEventListener('DOMContentLoaded', fn);
+        } else {
+            document.attachEvent('onreadystatechange', function() {
+                if (document.readystate !== 'loading') {
+                    fn();
+                }
+            });
+        }
+    };
+
+    _lmOnload = lmd.onload;
+</script>
+
+<script>
+   require(['lmd/core/login-register']);
+</script>
+<script>require(['lmd/core/crm'], function (crm) { crm.increment(); });</script>
+
+
+<script>require(["lmd/module/abonnes/bandeau_cb"], function (a) { a.init(); })</script>
+
+
+<!--[if IE]>
+<script>require(["lib/require/plugin/domReady!","lmd/ui/ie9-pinning"],function(b,a){a.start()});</script>
+<![endif]-->
+
+<link rel="dns-prefetch" href="//logs13.xiti.com">
+
+
+
+</head>
+<body class="site-gratuit">
+    <!-- Google Tag Manager No Script -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MS62MT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager No Script -->
+    <div id="dfp-cover" class="dfp_slot" data-format="cover" style="display:none;"></div>
+
+    
+    <header id="header-page">
+    <div id="surheader">
+    <div class="contenu">
+        <div class="groupe">
+            <a href="/" title="Le Monde" target="_self">Le Monde</a>
+            <a href="http://www.telerama.fr/" title="T&eacute;l&eacute;rama" target="_blank">T&eacute;l&eacute;rama</a>
+            <a href="http://www.monde-diplomatique.fr/" title="Le Monde diplomatique" target="_blank">Le Monde diplomatique</a>
+            <a href="http://www.huffingtonpost.fr/" title="HuffPost" target="_blank">HuffPost</a>
+            <a href="http://www.courrierinternational.com/" title="Courrier international" target="_blank">Courrier international</a>
+            <a href="http://www.lavie.fr/" title="La Vie" target="_blank">La Vie</a>
+            <a href="https://www.nouvelobs.com/" title="L'Obs" target="_blank">L'Obs</a>
+        </div>
+        <div class="partners">
+            <a class="partners__link" target="_blank" href="https://codepromo.lemonde.fr/" title="Codes promo" onclick="return xt_click(this, 'C', '', 'Cuponation_sur_header', 'N')">Codes promo</a>
+        </div>
+        <div class="services">
+            <span>Services Le Monde ▾</span>
+            <div>
+                <div>
+                    <strong>Partenaires Le Monde</strong>
+                    <a href="http://voiture-occasion.lemonde.fr" title="Annonces auto" target="_self">Annonces auto</a>
+                    <a href="https://paroles2chansons.lemonde.fr/" title="Paroles de chansons" target="_self">Paroles de chansons</a>
+                    <a href="http://offres.offres-emploi.monster.fr/?ch=LEMONDE" title="Annonces emploi" target="_blank">Annonces emploi</a>
+                    <a href="http://immobilier.lemonde.fr/" title="Annonces immo" target="_self">Annonces immo</a>
+                    <a href="https://codepromo.lemonde.fr/" title="Codes promo" target="_blank">Codes promo</a>
+                    <a href="http://dicocitations.lemonde.fr/" title="Citations" target="_self">Citations</a>
+                    <a href="https://anglais.lemonde.fr/" title="Cours d&rsquo;anglais" target="_self">Cours d&rsquo;anglais</a>
+                    <a href="https://formation-professionnelle.lemonde.fr/" title="Formation professionnelle" target="_self">Formation professionnelle</a>
+                    <a href="https://jardinage.lemonde.fr/" title="Jardinage" target="_self">Jardinage</a>
+                    <a href="https://progresser-orthographe.lemonde.fr/" title="Orthographe" target="_self">Orthographe</a>
+                    <a href="http://prix-immobilier.lemonde.fr/prix-immobilier/" title="Prix de l&rsquo;immobilier" target="_self">Prix de l&rsquo;immobilier</a>
+                    <a href="http://encheres.lemonde.fr" title="Ventes aux ench&egrave;res" target="_self">Ventes aux ench&egrave;res</a>
+                </div>
+                <div>
+                    <strong>Le Monde Événements</strong>
+                    <a href="https://evenements-abonnes.lemonde.fr/">Événements abonnés</a>
+                    <a href="/festival/">Le Monde Festival</a>
+                    <strong>Boutique Le Monde</strong>
+                    <a href="http://boutique.lemonde.fr/#xtor=AD-46" title="Accueil" target="_blank">Accueil</a>
+                    <a href="http://boutique.lemonde.fr/hors-series.html#xtor=AD-101" title="Hors-S&eacute;ries" target="_blank">Hors-S&eacute;ries</a>
+                    <a href="http://boutique.lemonde.fr/livres.html#xtor=AD-100" title="Livres" target="_blank">Livres</a>
+                    <a href="http://boutique.lemonde.fr/dvd-1.html#xtor=AD-98" title="DVD" target="_blank">DVD</a>
+                    <a href="http://boutique.lemonde.fr/cd.html#xtor=AD-99" title="CD" target="_blank">CD</a>
+                    <a href="http://boutique.lemonde.fr/unes-du-monde.html#xtor=AD-149" title="Unes du Monde" target="_blank">Unes du Monde</a>
+                    <a href="http://boutique.lemonde.fr/loisirs-et-papeterie.html#xtor=AD-103" title="Loisirs & papeterie" target="_blank">Loisirs & papeterie</a>
+                    <a href="http://boutique.lemonde.fr/promos.html#xtor=AD-345" title="Promotions" target="_blank">Promotions</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="abonnement">
+<a title="Abonnez-vous au Monde à partir de 1 €" href="https://abo.lemonde.fr#xtor=CS1-263[BOUTONS_LMFR]-[HEADER]--[Autre]" onclick="return xt_click(this, 'C', '', 'Abo::Header', 'N')" rel="nofollow">
+                <span>S’abonner au Monde à partir de 1 €</span>
+            </a>        </div>
+    </div>
+</div>
+    <div id="header-utilisateur">
+        <div class="contenu">
+            <a class="logo" href="/"></a>
+            <div class="menu-edition">
+                <ul>
+                    <li>
+                        <a href="#" title="Édition globale">
+                            Édition globale ▾
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/afrique/" title="Édition afrique">
+                            Édition afrique
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="liens-utilisateur">
+                <div class="partages">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/lemonde.fr" title="Facebook" target="" class="svg-facebook svg-facebook-dims">
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/lemondefr" title="Twitter" target="" class="svg-twitter svg-twitter-dims">
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/+LeMondefr" title="Google+" target="" class="svg-google svg-google-dims">
+                                Google+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lemondefr/" title="Instagram" target="_blank" class="svg-instagram">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="recherche">
+                    <a href="/recherche/" class="recherche__link">Rechercher</a>
+                </div>
+                <div class="liens-services">
+                    <a href="/emploi/" title="Emploi" target="" class="emploi">
+                        Emploi
+                    </a>
+                    <a href="https://secure.lemonde.fr/sfuser/newsletters" title="Newsletters" target="" class="newsletters">
+                        Newsletters
+                    </a>
+                </div>
+                <div class="liens-connexion">
+                    <ul>
+                        <li>
+                            <a href="https://secure.lemonde.fr/sfuser/register" title="S'inscrire" target="" class="sinscrire">
+                                S'inscrire
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://secure.lemonde.fr/sfuser/connexion" title="Connexion" target="" class="connexion">
+                                Connexion
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    require(['lmd/module/header']);
+</script>
+
+
+<div id="alerte_tracking" class="bandeau_info_importante bord_gris_moyen" style="display:none;height:0;">
+  En poursuivant votre navigation sur ce site, vous acceptez notre <a href="/confidentialite/">Politique de confidentialité</a> et l’utilisation de cookies pour vous proposer des contenus et services adaptés à vos centres d’intérêts.
+  <a href="/confidentialite/">En savoir plus et gérer ces paramètres</a>
+   <span class="croix_grise mgl8" title="Fermer cet avertissement"></span>
+</div>
+<script>require(["lmd/module/user/alerte_tracking"]);</script>
+
+
+    
+    <div id="habillagepub">
+    <script>
+require(["lmd/core/auth", "lmd/ui/header/header"], function(a,b){a.loadUser().done(function(){b.init();})});
+require(["lmd/module/acces-non-abonne"],function(a){a.init();});
+</script>
+                <div id="dfp-habillage" class="dfp_slot" data-format="habillage"></div>
+
+       <div id="dfp-banniere_haute" class="dfp_slot top banniere" data-format="banniere_haute"></div>
+
+
+
+
+    <div id="nav-section" class="section-page">
+<div class="conteneur-nav" id="nav">
+    <nav id="navigation-generale">
+        <span role="button" data-toggle="#navigation-generale ul" data-toggleRoot=".ecran.">Rubriques</span>
+        <ul>
+            <li class="accueil  ">
+                <a href="/" data-bypass="false" data-rubrique-title="A la une" data-rubrique-id="3208"  >
+                    <i class="maison">Accueil</i>
+                </a>
+            </li>
+            <li class="international  ">
+                <a href="/international/" data-bypass="false" data-rubrique-title="International" data-rubrique-id="3210"  >
+                    International
+                </a>
+            </li>
+            <li class="politique  ">
+                <a href="/politique/" data-bypass="false" data-rubrique-title="Politique" data-rubrique-id="823448"  >
+                    Politique
+                </a>
+            </li>
+            <li class="societe  ">
+                <a href="/societe/" data-bypass="false" data-rubrique-title="Société" data-rubrique-id="3224"  >
+                    Société
+                </a>
+            </li>
+            <li class="economie  ">
+                <a href="/economie/" data-bypass="false" data-rubrique-title="Économie" data-rubrique-id="3234"  >
+                    Éco
+                </a>
+            </li>
+            <li class="culture  ">
+                <a href="/culture/" data-bypass="false" data-rubrique-title="Culture" data-rubrique-id="3246"  >
+                    Culture
+                </a>
+            </li>
+            <li class="idees  ">
+                <a href="/idees/" data-bypass="false" data-rubrique-title="Idées" data-rubrique-id="3232"  >
+                    Idées
+                </a>
+            </li>
+            <li class="planete  ">
+                <a href="/planete/" data-bypass="false" data-rubrique-title="Planète" data-rubrique-id="3244"  >
+                    Planète
+                </a>
+            </li>
+            <li class="sport  ">
+                <a href="/sport/" data-bypass="false" data-rubrique-title="Sport" data-rubrique-id="3242"  >
+                    Sport
+                </a>
+            </li>
+            <li class="sciences  ">
+                <a href="/sciences/" data-bypass="false" data-rubrique-title="Sciences" data-rubrique-id="1650684"  >
+                    Sciences
+                </a>
+            </li>
+            <li class="pixels  ">
+                <a href="/pixels/" data-bypass="false" data-rubrique-title="Pixels" data-rubrique-id="4408996"  >
+                    Pixels
+                </a>
+            </li>
+            <li class="campus  ">
+                <a href="/campus/" data-bypass="false" data-rubrique-title="M Campus" data-rubrique-id="4401467"  >
+                    M Campus
+                </a>
+            </li>
+            <li class="m-mag  ">
+                <a href="/m-le-mag/" data-bypass="false" data-rubrique-title="M le mag" data-rubrique-id="4500055"  >
+                    Le Mag
+                </a>
+            </li>
+            <li class="abonnes js_carousel_exclude ">
+                <a href="/teaser/presentation.html#xtor=CS1-263[BOUTONS_LMFR]-[BARRE_DE_NAV]--[Autre]"  data-rubrique-title="Édition Abonnés" data-rubrique-id="1667658" onclick="return xt_click(this, 'C', '', 'Abo::Barre_de_nav', 'N');" rel="nofollow">
+                    Édition Abonnés
+                </a>
+            </li>
+            <li class="burger js_carousel_exclude">
+                <span role="button" title="afficher plus de rubriques" data-toggle="#navigation-generale .burger div" data-toggleRoot=".ecran."></span>
+                <div data-toggle-policy="autoclear">
+                    <span>PLUS DE RUBRIQUES</span>
+                    <a href="/grands-formats/">Grands Formats</a>
+                    <a href="/les-decodeurs/">Les d&eacute;codeurs</a>
+                    <a href="/videos/">Vid&eacute;os</a>
+                    <a href="/data/">Données du Monde</a>
+                    <a href="/guides-d-achat/">Guides d'achat</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<script>
+    require(['jquery'], function($) {
+        $("#nav li").on('click', onNavItemClick);
+
+        function onNavItemClick(event) {
+            var classAttr,
+                className,
+                prefixXiti;
+
+            classAttr = $(event.target).closest("li").attr("class");
+            // If li tag has no class attributes or if class attribute is empty
+            if ($.trim(classAttr).length === 0) {
+                return;
+            }
+
+            className = classAttr.split(/\s+/)[0];
+            prefixXiti = (lmd.context.application === "www" ? "barre_nav_" : "barre_nav_abo_");
+            if (typeof xt_click === "function") {
+                xt_click(this, 'C', lmd.context.page.xiti.xtn2, prefixXiti + className, 'N');
+            }
+        }
+   });
+</script>
+
+</div>
+
+
+    <div class="ombrelle">
+      <div class="tt_rubrique_ombrelle couleur_rubrique"><span class="m_titre"></span>En continu</div>
+   <span class="widget">
+</span>
+</div>
+
+    
+    
+    <div class="global"><!-- global - haut une-->
+
+
+   <div class="container_18 clearfix">
+      <div class="grid_12 alpha col_gauche"><!-- /col gauche -->
+
+         
+
+
+
+
+
+
+         <div class="">
+            <div class="fleuve">
+   <section>
+         
+<article class="grid_12 alpha enrichi mgt8">
+            <time class="grid_1 alpha" datetime="2018-10-05T22:48:51+02:00">22h48</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FtZXJpcXVlcy9hcnRpY2xlLzIwMTgvMTAvMDUvdW4tcG9saWNpZXItYmxhbmMtZGUtY2hpY2Fnby1yZWNvbm51LWNvdXBhYmxlLWR1LW1ldXJ0cmUtZC11bi1qZXVuZS1ub2lyXzUzNjU0NTJfMzIyMi5odG1s"><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/09/25/0/1/4867/3245/147/97/60/0/cb7298d_108c08da6e5b425a883d21514c392b3f-108c08da6e5b425a883d21514c392b3f-0.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Police stand guard in front of the United Nations headquarters during the the 73rd session of the United Nations General Assembly, in New York, Tuesday, Sept. 25, 2018. (AP Photo/Andres Kudacki)" title="Andres Kudacki / AP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/ameriques/article/2018/10/05/un-policier-blanc-de-chicago-reconnu-coupable-du-meurtre-d-un-jeune-noir_5365452_3222.html">Un policier blanc de Chicago reconnu coupable du meurtre d’un jeune Noir
+
+
+</a></h3>
+<p class="txt3">Jason Van Dyke était accusé d’avoir abattu à distance et sans raison Laquan McDonald, 17 ans, en 2014. Sa sentence sera connue ultérieurement.</p>
+      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/ameriques/article/2018/10/05/un-policier-blanc-de-chicago-reconnu-coupable-du-meurtre-d-un-jeune-noir_5365452_3222.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/ameriques/article/2018/10/05/un-policier-blanc-de-chicago-reconnu-coupable-du-meurtre-d-un-jeune-noir_5365452_3222.html" data-title="Un policier blanc de Chicago reconnu coupable du meurtre d&rsquo;un jeune Noir">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T22:28:39+02:00">22h28</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FtZXJpcXVlcy9hcnRpY2xlLzIwMTgvMTAvMDUvZXRhdHMtdW5pcy1icmV0dC1rYXZhbmF1Z2gtYXNzdXJlLWRlLXNpZWdlci1hLWxhLWNvdXItc3VwcmVtZV81MzY1NDQ4XzMyMjIuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/63/0/3157/2104/147/97/60/0/5364876_5c98875760c54f328cafd811af72b54b-5c98875760c54f328cafd811af72b54b-0.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="FILE - In this Sept. 27, 2018 file photo, Supreme Court nominee Brett Kavanaugh testifies before the Senate Judiciary Committee on Capitol Hill in Washington. Democratic U.S. Senate candidate Phil Bredesen announced Friday, Oct. 5 that he would support Kavanaugh’s nomination for Supreme Court, a key choice in a tight Tennessee race that he says became a “much closer call” after the woman who accused Kavanaugh of sexual assault in high school came forward. Bredesen’s announcement Friday came just moments before Senate votes were tallied on a favorable motion to bring Kavanaugh’s nomination to a final vote Saturday, Oct. 6. (Win McNamee/Pool Photo via AP, File)" title="Win McNamee / AP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/ameriques/article/2018/10/05/etats-unis-brett-kavanaugh-assure-de-sieger-a-la-cour-supreme_5365448_3222.html">Etats-Unis : Brett Kavanaugh assuré de siéger à la Cour suprême
+
+
+</a></h3>
+<p class="txt3">Deux sénateurs clés ont annoncé qu’ils voteraient pour le juge, ce qui l’assure d’être confirmé à ce poste malgré les accusations d’agression sexuelle. Le vote a lieu samedi.</p>
+      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/ameriques/article/2018/10/05/etats-unis-brett-kavanaugh-assure-de-sieger-a-la-cour-supreme_5365448_3222.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/ameriques/article/2018/10/05/etats-unis-brett-kavanaugh-assure-de-sieger-a-la-cour-supreme_5365448_3222.html" data-title="Etats-Unis : Brett Kavanaugh assur&eacute; de si&eacute;ger &agrave; la Cour supr&ecirc;me">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T21:20:38+02:00">21h20</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="aHR0cDovL21vbmRlcGhpbGF0ZWxpcXVlLmJsb2cubGVtb25kZS5mci8yMDE4LzEwLzA1L2ZyYW5jb2lzZS1kb2x0by1kZS1sYS1wc3ljaGFuYWx5c3RlLWF1LXBlcmUtbm9lbC8="><img width="147" height="97" data-item-type="post_blog" data-src="https://img.lemde.fr/2018/10/05/65/0/800/532/147/97/60/0/0d2faf6_kGwRtcljTgAK_tcw0Ua1ylOp.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Vente dans tous les bureaux de poste le 8 octobre pour ce timbre dédié à Françoise Dolto dessiné par Sarah Bougault." title="DR La Poste" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <h3 class=" "><a href="http://mondephilatelique.blog.lemonde.fr/2018/10/05/francoise-dolto-de-la-psychanalyste-au-pere-noel/">Un timbre pour Françoise Dolto
+
+<span class="type_element mgl5">Post de blog</span>
+</a></h3>
+<p class="txt3">La Poste a choisi de mettre la psychanalyse à l’honneur avec la parution, lundi 8 octobre, d’un timbre à l’effigie de Françoise Dolto. Une première philatélique en France.</p>
+      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="http://mondephilatelique.blog.lemonde.fr/2018/10/05/francoise-dolto-de-la-psychanalyste-au-pere-noel/">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="http://mondephilatelique.blog.lemonde.fr/2018/10/05/francoise-dolto-de-la-psychanalyste-au-pere-noel/" data-title="Un timbre pour Fran&ccedil;oise Dolto">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T20:32:40+02:00">20h32</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2ludGVybmF0aW9uYWwvYXJ0aWNsZS8yMDE4LzEwLzA1L2FyZ2VudGluZS1hLWNhdXNlLWRlLWxhLWxlbnRldXItZGUtbGEtanVzdGljZS1sLWV4LXByZXNpZGVudC1jYXJsb3MtbWVuZW0tZWNoYXBwZS1hLWxhLXByaXNvbl81MzY1NDQ0XzMyMTAuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/105/0/2000/1332/147/97/60/0/c10fae8_b385b819b43a44949aa3211a5b381559-b385b819b43a44949aa3211a5b381559-0.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="L’ancien président argentin Carlos Menem (1989-1999), 88 ans et sénateur." title="SANTIAGO LLANQUIN / AP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/international/article/2018/10/05/argentine-a-cause-de-la-lenteur-de-la-justice-l-ex-president-carlos-menem-echappe-a-la-prison_5365444_3210.html">Argentine : à cause de la lenteur de la justice, l’ex-président Carlos Menem échappe à la prison
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>8</span></a></h3>
+<p class="txt3">L’ex-chef de l’Etat péroniste avait été condamné à sept ans de prison en 2013 pour contrebande d’armes, mais il n’avait pas encore épuisé tous les recours judiciaires.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/christine-legrand/">Christine Legrand</a> (Buenos Aires, correspondante)
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/international/article/2018/10/05/argentine-a-cause-de-la-lenteur-de-la-justice-l-ex-president-carlos-menem-echappe-a-la-prison_5365444_3210.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/international/article/2018/10/05/argentine-a-cause-de-la-lenteur-de-la-justice-l-ex-president-carlos-menem-echappe-a-la-prison_5365444_3210.html" data-title="Argentine&nbsp;: &agrave; cause de la lenteur de la justice, l&rsquo;ex-pr&eacute;sident Carlos Menem &eacute;chappe &agrave; la prison">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T19:56:55+02:00">19h56</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2xpZ3VlLWRlcy1jaGFtcGlvbnMvYXJ0aWNsZS8yMDE4LzEwLzA1L2xlLXBzZy1iYW5uaXQtdW5lLXRyZW50YWluZS1kLXVsdHJhcy1hcHJlcy1sZXMtaW5jaWRlbnRzLWNvbnRyZS1sLWV0b2lsZS1yb3VnZS1kZS1iZWxncmFkZV81MzY1NDQxXzE2MTY5NDQuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/03/0/0/5454/3636/147/97/60/0/82d2f8f_5472931-01-06.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Le PSG est visé par une enquête de l’UEFA pour l’usage de fumigènes par ses supporteurs dans l’enceinte du Parc des Princes le 3 octobre." title="ANNE-CHRISTINE POUJOULAT             / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/ligue-des-champions/article/2018/10/05/le-psg-bannit-une-trentaine-d-ultras-apres-les-incidents-contre-l-etoile-rouge-de-belgrade_5365441_1616944.html">Le PSG bannit une trentaine d’ultras après les incidents contre l’Etoile rouge de Belgrade
+
+
+</a></h3>
+<p class="txt3">Entre 300 et 400 individus cagoulés et équipés de fumigènes avaient lancé des projectiles sur les forces de l’ordre, mercredi, après le match de Ligue des champions.</p>
+      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/ligue-des-champions/article/2018/10/05/le-psg-bannit-une-trentaine-d-ultras-apres-les-incidents-contre-l-etoile-rouge-de-belgrade_5365441_1616944.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/ligue-des-champions/article/2018/10/05/le-psg-bannit-une-trentaine-d-ultras-apres-les-incidents-contre-l-etoile-rouge-de-belgrade_5365441_1616944.html" data-title="Le PSG bannit une trentaine d&rsquo;ultras apr&egrave;s les incidents contre l&rsquo;Etoile rouge de Belgrade">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T19:45:13+02:00">19h45</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FzaWUtcGFjaWZpcXVlL2FydGljbGUvMjAxOC8xMC8wNS9zZWNvdXJpc3RlLWZyYW5jYWlzLWVuLWluZG9uZXNpZS1vbi1lc3QtdW4tcGV0aXQtcGV1LWZydXN0cmUtZGUtbmUtcGFzLXBvdXZvaXItbGVzLWFpZGVyLXBsdXNfNTM2NTQzOF8zMjE2Lmh0bWw="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/0/0/3000/2000/147/97/60/0/75dd5b4_CCDIvO8QvYZWboqb5nFnCA04.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Une unité indonésienne de Search and rescue (SAR), spécialisée dans la recherche et le sauvetage, à Palu, le 5 octobre." title="ADEK BERRY / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Entretien</span><h3 class=" "><a href="/asie-pacifique/article/2018/10/05/secouriste-francais-en-indonesie-on-est-un-petit-peu-frustre-de-ne-pas-pouvoir-les-aider-plus_5365438_3216.html">Secouriste français en Indonésie : « On est un petit peu frustrés de ne pas pouvoir les aider plus »
+
+
+</a></h3>
+<p class="txt3">Une semaine après le séisme, la situation humanitaire en Indonésie est sous le contrôle des autorités locales, selon le témoignage sur place du sapeur-pompier Thierry Velu.</p>
+<span class="txt1 signature">                            Simon Auffret
+</span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/asie-pacifique/article/2018/10/05/secouriste-francais-en-indonesie-on-est-un-petit-peu-frustre-de-ne-pas-pouvoir-les-aider-plus_5365438_3216.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/asie-pacifique/article/2018/10/05/secouriste-francais-en-indonesie-on-est-un-petit-peu-frustre-de-ne-pas-pouvoir-les-aider-plus_5365438_3216.html" data-title="Secouriste fran&ccedil;ais en Indon&eacute;sie&nbsp;: &laquo;&nbsp;On est un petit peu frustr&eacute;s de ne pas pouvoir les aider plus&nbsp;&raquo;">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T19:10:58+02:00">19h10</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2xpdnJlcy9hcnRpY2xlLzIwMTgvMTAvMDUvcm9iZXJ0by1zYXZpYW5vLWxlcy1iYWJ5LWdhbmdzdGVycy1zb250LWhhYml0ZXMtcGFyLXVuZS1zb3J0ZS1kZS1kZXNpci1teXN0aXF1ZV81MzY1NDMxXzMyNjAuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/06/18/0/2/2121/1414/147/97/60/0/27b90c5_1616-hdeuu2.ee74o.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Le journaliste et écrivain italien Roberto Saviano" title="CATHERINE HÉLIE / GALLIMARD" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Entretien</span><h3 class=" marqueur_restreint"><a href="/livres/article/2018/10/05/roberto-saviano-les-baby-gangsters-sont-habites-par-une-sorte-de-desir-mystique_5365431_3260.html">Roberto Saviano : « Les “baby-gangsters” sont habités par une sorte de désir mystique »
+
+
+</a></h3>
+<p class="txt3">L’écrivain italien signe un premier roman très inspiré de faits réels, « Piranhas », qui témoigne de l’apparition, à Naples, de gangs de très jeunes mafieux.</p>
+<span class="txt1 signature">                            Macha S&eacute;ry
+</span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/livres/article/2018/10/05/roberto-saviano-les-baby-gangsters-sont-habites-par-une-sorte-de-desir-mystique_5365431_3260.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/livres/article/2018/10/05/roberto-saviano-les-baby-gangsters-sont-habites-par-une-sorte-de-desir-mystique_5365431_3260.html" data-title="Roberto Saviano&nbsp;: &laquo;&nbsp;Les &ldquo;baby-gangsters&rdquo; sont habit&eacute;s par une sorte de d&eacute;sir mystique&nbsp;&raquo;">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T19:02:50+02:00">19h02</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L3BsYW5ldGUvYXJ0aWNsZS8yMDE4LzEwLzA1L3BvbGx1dGlvbi1qdWdlLWVuLWFwcGVsLXBvdXItZmF1eC10ZW1vaWduYWdlLWxlLXByb2Zlc3NldXItYXViaWVyLXJlY29ubmFpdC11bmUtZXJyZXVyXzUzNjU0MjhfMzI0NC5odG1s"><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2017/07/04/0/262/4209/2806/147/97/60/0/81d84dd_13615-csvko3.dpsczestt9.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Michel Aubier, en juin 2017, lors de son procès en première instance." title="CHRISTOPHE ARCHAMBAULT  / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/planete/article/2018/10/05/pollution-juge-en-appel-pour-faux-temoignage-le-professeur-aubier-reconnait-une-erreur_5365428_3244.html">Pollution : jugé en appel pour « faux témoignage », le professeur Aubier reconnaît « une erreur »
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>27</span></a></h3>
+<p class="txt3">Condamné en première instance à six mois de prison avec sursis, l’ancien pneumologue était jugé en appel vendredi pour avoir dissimulé ses liens avec Total devant le Parlement.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/stephane-mandard/">St&eacute;phane Mandard</a>
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/planete/article/2018/10/05/pollution-juge-en-appel-pour-faux-temoignage-le-professeur-aubier-reconnait-une-erreur_5365428_3244.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/planete/article/2018/10/05/pollution-juge-en-appel-pour-faux-temoignage-le-professeur-aubier-reconnait-une-erreur_5365428_3244.html" data-title="Pollution&nbsp;: jug&eacute; en appel pour &laquo;&nbsp;faux t&eacute;moignage&nbsp;&raquo;, le professeur Aubier reconna&icirc;t &laquo;&nbsp;une erreur&nbsp;&raquo;">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+<div id="lig_lemonde_home_article_infeed_1" class="ligatus_infeed"></div>
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T18:35:13+02:00">18h35</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2ludGVybmF0aW9uYWwvYXJ0aWNsZS8yMDE4LzEwLzA1L2xlLWNob21hZ2UtYW1lcmljYWluLWF1LXBsdXMtYmFzLWRlcHVpcy0xOTY5XzUzNjU0MjVfMzIxMC5odG1s"><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2014/10/02/0/0/3761/2507/147/97/60/0/d54b69c_TOR901_USA-ECONOMY-EMPLOYMENT_1002_11.JPG" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="« Now Hiring » (« nous embauchons ») sur la porte d’un magasin, à Boston, Massachusetts." title="REUTERS / BRIAN SNYDER" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/international/article/2018/10/05/le-chomage-americain-au-plus-bas-depuis-1969_5365425_3210.html">Le chômage américain au plus bas depuis 1969
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>39</span></a></h3>
+<p class="txt3">Sur les neuf premiers mois de l’année, 211 000 emplois ont été créés en moyenne, en net progrès par rapport aux 182 000 de 2017.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/arnaud-leparmentier/">Arnaud Leparmentier</a> (New York, correspondant)
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/international/article/2018/10/05/le-chomage-americain-au-plus-bas-depuis-1969_5365425_3210.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/international/article/2018/10/05/le-chomage-americain-au-plus-bas-depuis-1969_5365425_3210.html" data-title="Le ch&ocirc;mage am&eacute;ricain au plus bas depuis 1969">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T18:34:06+02:00">18h34</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FtZXJpcXVlcy9hcnRpY2xlLzIwMTgvMTAvMDUvYS1uZXcteW9yay1yZWdhcmRzLWNyb2lzZXMtYXZlYy1sZXMtbWlsbGUtY2hvcmlzdGVzLWRlLWxhLWhpZ2gtbGluZV81MzY1NDIyXzMyMjIuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/0/0/1079/719/147/97/60/0/67faff9_Jy6Cku51yrFTfiaOlziVy9W0.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="A New York, le « Mile-Long Opera » a rassemblé 1 000 choristes installés le long de la High Line, cette voie de chemin de fer désaffectée transformée depuis 2009 en trouée verte." title="CAPTURE D’ÉCRAN VIMEO" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">R&eacute;cit</span><h3 class=" marqueur_restreint"><a href="/ameriques/article/2018/10/05/a-new-york-regards-croises-avec-les-mille-choristes-de-la-high-line_5365422_3222.html">A New York, regards croisés avec les mille choristes de la High Line
+
+
+</a></h3>
+<p class="txt3">Le long d’une voie de chemin de fer désaffectée, le « Mile-Long Opera » a été une expérience humaine, avant d’être un spectacle musical.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/arnaud-leparmentier/">Arnaud Leparmentier</a> (New York, correspondant)
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/ameriques/article/2018/10/05/a-new-york-regards-croises-avec-les-mille-choristes-de-la-high-line_5365422_3222.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/ameriques/article/2018/10/05/a-new-york-regards-croises-avec-les-mille-choristes-de-la-high-line_5365422_3222.html" data-title="A New York, regards crois&eacute;s avec les mille choristes de la High Line">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T18:30:33+02:00">18h30</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FmcmlxdWUvYXJ0aWNsZS8yMDE4LzEwLzA1L2NvbW1lbnQtbC1lc3dhdGluaS1hLW1pcy1zb3VzLWNvbnRyb2xlLWxhLWRvdWJsZS1lcGlkZW1pZS1zaWRhLXR1YmVyY3Vsb3NlXzUzNjU0MTlfMzIxMi5odG1s"><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/2/0/3000/2000/147/97/60/0/33521fb_OW5OeWawy4wBsi9EXR59IU7q.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Une employée de la clinique Baylor de Mbabane aide des enfants à cracher pour un dépistage de la tuberculose, à une dizaine de kilomètres de la capitale de l’Eswatini (ex-Swaziland)." title="Shehzad Noorani" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html">Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose
+
+
+</a></h3>
+<p class="txt3">Tuberculose, jusqu’à quand ? (7) Depuis 2010, le nombre de nouveaux cas pour les deux infections a chuté de près de la moitié grâce à une mobilisation sans précédent.</p>
+<span class="txt1 signature">                            Adrien Barbier (Mbabane, Eswatini, envoy&eacute; sp&eacute;cial)
+</span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html" data-title="Comment l&rsquo;Eswatini a mis sous contr&ocirc;le la double &eacute;pid&eacute;mie sida-tuberculose">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T18:10:59+02:00">18h10</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L211c2lxdWVzL2FydGljbGUvMjAxOC8xMC8wNS9sYS1zZWluZS1zYWludC1kZW5pcy10ZXJyZWF1LWZlcnRpbGUtcG91ci1sZS1yYXAtZnJhbmNhaXNfNTM2NTQxMl8xNjU0OTg2Lmh0bWw="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/398/0/1066/709/147/97/60/0/9c3dd93_e3w02mdMHNTBNYivzLdeDr5l.jpeg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Sofiane et NTM lors du tournage du Clip  « Sur le Drapeau »." title="LIBITUM" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" marqueur_restreint"><a href="/musiques/article/2018/10/05/la-seine-saint-denis-terreau-fertile-pour-le-rap-francais_5365412_1654986.html">La Seine-Saint-Denis, terreau fertile pour le rap français
+
+
+</a></h3>
+<p class="txt3">A l’initiative du rappeur Sofiane, une compilation réunit près de quarante artistes originaires du département 93 , dont NTM.</p>
+<span class="txt1 signature">                            St&eacute;phanie Binet
+</span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/musiques/article/2018/10/05/la-seine-saint-denis-terreau-fertile-pour-le-rap-francais_5365412_1654986.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/musiques/article/2018/10/05/la-seine-saint-denis-terreau-fertile-pour-le-rap-francais_5365412_1654986.html" data-title="La Seine-Saint-Denis, terreau fertile pour le rap fran&ccedil;ais">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T18:03:36+02:00">18h03</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FydHMvYXJ0aWNsZS8yMDE4LzEwLzA1L2EtdG91bG91c2UtbGUtYmxldS1kZS12aW5jZW50LW1lZXNzZW4tc3VyLWxlLXByaW50ZW1wcy1kZS1zZXB0ZW1icmVfNTM2NTQwOF8xNjU1MDEyLmh0bWw="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/0/84/578/385/147/97/60/0/015db2a_Kc8bs0K6dWuYhAQ0eZliKnlK.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="« Ultramarine », une installation filmique, musicale et textile de Vincent Meessen, au Musée Saint-Raymond, à Toulouse." title="VINCENT MEESSEN / PRINTEMPS DE SEPTEMBRE" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Critique</span><h3 class=" marqueur_restreint"><a href="/arts/article/2018/10/05/a-toulouse-le-bleu-de-vincent-meessen-sur-le-printemps-de-septembre_5365408_1655012.html">A Toulouse, le bleu de Vincent Meessen sur le Printemps de septembre
+
+
+</a></h3>
+<p class="txt3">L’œuvre vidéo du plasticien belge domine la manifestation, jusqu’au 21 octobre.</p>
+<span class="txt1 signature">                            Emmanuelle Lequeux (Toulouse)
+</span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/arts/article/2018/10/05/a-toulouse-le-bleu-de-vincent-meessen-sur-le-printemps-de-septembre_5365408_1655012.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/arts/article/2018/10/05/a-toulouse-le-bleu-de-vincent-meessen-sur-le-printemps-de-septembre_5365408_1655012.html" data-title="A Toulouse, le bleu de Vincent Meessen sur le Printemps de septembre">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+<div id="lig_lemonde_home_article_infeed_2" class="ligatus_infeed"></div>
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T18:00:29+02:00">18h00</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2Vjb25vbWllL2FydGljbGUvMjAxOC8xMC8wNS9yZWdsZW1lbnQtZGUtY29tcHRlcy1jaGV6LWxlcy1lZGl0ZXVycy1qdXJpZGlxdWVzXzUzNjU0MDVfMzIzNC5odG1s"><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/0/0/5184/3456/147/97/60/0/4217495_xRqQAOdWYmMycSaa7UzfIopi.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Le Tribunal de commerce de Paris, en septembre 2015." title="PATRICK KOVARIK / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" marqueur_restreint"><a href="/economie/article/2018/10/05/reglement-de-comptes-chez-les-editeurs-juridiques_5365405_3234.html">Règlement de comptes chez les éditeurs juridiques
+
+
+</a></h3>
+<p class="txt3">Des huissiers se sont présentés vendredi dans des locaux de Forseti, la société exploitant le moteur de recherche Doctrine.fr. Plusieurs grands noms du secteur l’accusent de pratiques agressives et non éthiques.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/isabelle-chaperon/">Isabelle Chaperon</a>
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/economie/article/2018/10/05/reglement-de-comptes-chez-les-editeurs-juridiques_5365405_3234.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/economie/article/2018/10/05/reglement-de-comptes-chez-les-editeurs-juridiques_5365405_3234.html" data-title="R&egrave;glement de comptes chez les &eacute;diteurs juridiques">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T17:55:52+02:00">17h55</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="aHR0cDovL3Nvc2NvbnNvLmJsb2cubGVtb25kZS5mci8yMDE4LzEwLzA1L2xhLXRlc3RhdHJpY2UtZXRhaXQtZWxsZS1hdHRlaW50ZS1kZS1sYS1tYWxhZGllLWRhbHpoZWltZXIvI21vcmUtMjI0ODQ="><img width="147" height="97" data-item-type="post_blog" data-src="https://img.lemde.fr/2018/10/05/0/2/754/503/147/97/60/0/8843b66_blAMr1AmPmTLR89maX6IVvo7.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="«  Le docteur Y, psychiatre inscrit sur la liste des médecins spécialistes du procureur de la République de Paris, dans un certificat médical établi le 30 juillet 2010, et destiné au juge des tutelles, a confirmé le diagnostic de la maladie.  »" title="Look / Photononstop" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <h3 class=" "><a href="http://sosconso.blog.lemonde.fr/2018/10/05/la-testatrice-etait-elle-atteinte-de-la-maladie-dalzheimer/#more-22484">La testatrice était-elle atteinte de la maladie d’Alzheimer ?
+
+<span class="type_element mgl5">Post de blog</span>
+</a></h3>
+<p class="txt3">Son fils adoptif, auquel elle ne laisse rien, l’affirme. Il obtient l’annulation du testament pour insanité d’esprit. Les bénéficiaires de la succession font appel, et tentent de prouver que, bien qu’atteinte d’aphasie, elle avait toute sa tête.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/rafaele-rivais/">Rafa&euml;le Rivais</a>
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="http://sosconso.blog.lemonde.fr/2018/10/05/la-testatrice-etait-elle-atteinte-de-la-maladie-dalzheimer/#more-22484">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="http://sosconso.blog.lemonde.fr/2018/10/05/la-testatrice-etait-elle-atteinte-de-la-maladie-dalzheimer/#more-22484" data-title="La testatrice &eacute;tait-elle atteinte de la maladie d&rsquo;Alzheimer&nbsp;?">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T17:49:01+02:00">17h49</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L3BvbGl0aXF1ZS9hcnRpY2xlLzIwMTgvMTAvMDUvZXRhdC1jb2xsZWN0aXZpdGVzLWxlLWdvdXZlcm5lbWVudC10ZW50ZS1kZS1yZXRyb3V2ZXItbGVzLXZvaWVzLWR1LWRpYWxvZ3VlXzUzNjU0MDBfODIzNDQ4Lmh0bWw="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/03/0/0/5472/3648/147/97/60/0/caa315c_5470650-01-06.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="la ministre auprès du ministre de l’intérieur, Jacqueline Gourault, le 3 octobre à l’Assemblée nationale." title="THOMAS SAMSON / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/politique/article/2018/10/05/etat-collectivites-le-gouvernement-tente-de-retrouver-les-voies-du-dialogue_5365400_823448.html">Etat-collectivités : le gouvernement tente de retrouver les voies du dialogue
+
+
+</a></h3>
+<p class="txt3">Devant l’Assemblée des communautés de France, la ministre auprès du ministre de l’intérieur, Jacqueline Gourault, a admis des maladresses.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/patrick-roger/">Patrick Roger</a> (Deauville (Calvados), envoy&eacute; sp&eacute;cial)
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/politique/article/2018/10/05/etat-collectivites-le-gouvernement-tente-de-retrouver-les-voies-du-dialogue_5365400_823448.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/politique/article/2018/10/05/etat-collectivites-le-gouvernement-tente-de-retrouver-les-voies-du-dialogue_5365400_823448.html" data-title="Etat-collectivit&eacute;s&nbsp;: le gouvernement tente de retrouver les voies du dialogue">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T17:47:41+02:00">17h47</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2Vjb25vbWllL2FydGljbGUvMjAxOC8xMC8wNS9sYS1tb2JpbGl0ZS1kb2l0LWV0cmUtbWlzZS1hdS1jLXVyLWRlLWwtZW5qZXUtY2xpbWF0aXF1ZV81MzY1Mzk3XzMyMzQuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2010/06/11/0/0/489/326/147/97/60/0/ill_1371468_8b13_ratp.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Un bus de la RATP, à Paris." title="AFP/LOIC VENANCE" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Entretien</span><h3 class=" marqueur_restreint"><a href="/economie/article/2018/10/05/la-mobilite-doit-etre-mise-au-c-ur-de-l-enjeu-climatique_5365397_3234.html">« La mobilité doit être mise au cœur de l’enjeu climatique »
+
+
+</a></h3>
+<p class="txt3">Bruno Gazeau, président de la Fédération nationale des usagers des transports, plaide pour l’équité et la transparence entre les modes de transport.</p>
+<span class="txt1 signature">                            Dominique Buffier
+</span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/economie/article/2018/10/05/la-mobilite-doit-etre-mise-au-c-ur-de-l-enjeu-climatique_5365397_3234.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/economie/article/2018/10/05/la-mobilite-doit-etre-mise-au-c-ur-de-l-enjeu-climatique_5365397_3234.html" data-title="&laquo; La mobilit&eacute; doit &ecirc;tre mise au c&oelig;ur de l&rsquo;enjeu climatique &raquo;">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T17:41:19+02:00">17h41</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2F1dG8tbW90by9hcnRpY2xlLzIwMTgvMTAvMDUvZm9ybXVsZS0xLXJlbmF1bHQtdmV1dC1kZXMtYS1wcmVzZW50LW91YmxpZXItMjAxOC1ldC1zZS1wcm9qZXRlci1zdXItMjAxOV81MzY1Mzk1XzE2MTY2NjIuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/09/30/0/206/3088/2059/147/97/60/0/551064e_SZH24_MOTOR-F1-RUSSIA-_0930_11.JPG" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="A la veille du Grand Prix de Japon, dimanche 7 octobre, Renault figure au 4e rang du classement des constructeurs et ses pilotes Nico Hülkenberg et Carlos Sainz sont respectivement classés 8e et 12e." title="POOL / REUTERS" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/auto-moto/article/2018/10/05/formule-1-renault-veut-des-a-present-oublier-2018-et-se-projeter-sur-2019_5365395_1616662.html">Formule 1 : Renault veut dès à présent oublier 2018 et se projeter sur 2019
+
+
+</a></h3>
+<p class="txt3">Le constructeur français, qui ambitionne toujours de voir l’un de ses pilotes monter sur le podium d’un grand prix, doit améliorer son moteur. Il a embauché le pilote australien Daniel Ricciardo.</p>
+<span class="txt1 signature">            <a class="auteur" target="_blank" href="/journaliste/catherine-pacary/">Catherine Pacary</a> (Propos recueillis par)
+    </span>      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/auto-moto/article/2018/10/05/formule-1-renault-veut-des-a-present-oublier-2018-et-se-projeter-sur-2019_5365395_1616662.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/auto-moto/article/2018/10/05/formule-1-renault-veut-des-a-present-oublier-2018-et-se-projeter-sur-2019_5365395_1616662.html" data-title="Formule 1&nbsp;: Renault veut d&egrave;s &agrave; pr&eacute;sent oublier 2018 et se projeter sur 2019">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+<div id="lig_lemonde_home_article_infeed_3" class="ligatus_infeed"></div>
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T17:38:03+02:00">17h38</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="L2FtZXJpcXVlcy9hcnRpY2xlLzIwMTgvMTAvMDUvZW4tcm91dGUtcG91ci1sYS1jb3VyLXN1cHJlbWUtbGUtanVnZS1rYXZhbmF1Z2gtcmVtcG9ydGUtdW4tcHJlbWllci12b3RlLWRlLXByb2NlZHVyZS1hdS1zZW5hdF81MzY1MzkyXzMyMjIuaHRtbA=="><img width="147" height="97" data-item-type="article" data-src="https://img.lemde.fr/2018/10/05/0/0/3000/2000/147/97/60/0/0e07005_5484954-01-07.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="Lors de la manifestation du jeudi 4 octobre à Washington en protestation contre la nomination du juge Kavanaugh à la Cour suprême." title="ALEX WONG / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <span class="nature_edito">Compte rendu</span><h3 class=" "><a href="/ameriques/article/2018/10/05/en-route-pour-la-cour-supreme-le-juge-kavanaugh-remporte-un-premier-vote-de-procedure-au-senat_5365392_3222.html">En route pour la Cour suprême, le juge Kavanaugh remporte un premier vote de procédure
+
+
+<span class="nb_reactions mgl5"><span class="pic"></span>15</span></a></h3>
+<p class="txt3">Les sénateurs américains ont voté vendredi, à 51 voix contre 49, la clôture du processus de nomination du candidat de Trump à la plus haute instance juridictionnelle américaine.</p>
+      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="/ameriques/article/2018/10/05/en-route-pour-la-cour-supreme-le-juge-kavanaugh-remporte-un-premier-vote-de-procedure-au-senat_5365392_3222.html">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="/ameriques/article/2018/10/05/en-route-pour-la-cour-supreme-le-juge-kavanaugh-remporte-un-premier-vote-de-procedure-au-senat_5365392_3222.html" data-title="En route pour la Cour supr&ecirc;me, le juge Kavanaugh remporte un premier vote de proc&eacute;dure">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+         
+<article class="grid_12 alpha enrichi">
+            <time class="grid_1 alpha" datetime="2018-10-05T17:33:07+02:00">17h33</time>
+
+
+
+
+
+
+
+   <div class="grid_11 conteneur_fleuve omega">
+      <span class="grid_3 obf" data-href="aHR0cDovL3NvY2lhbC5ibG9nLmxlbW9uZGUuZnIvMjAxOC8xMC8wNS9sYS1kaXJlY3Rpb24tZGUtbGEtY2d0LWZhY2UtYS11bmUtZnJvbmRlLWRleHRyZW1lLWdhdWNoZS8="><img width="147" height="97" data-item-type="post_blog" data-src="https://img.lemde.fr/2015/02/03/0/0/5110/3407/147/97/60/0/aed2fa0_5877374-01-06.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-lazyload="true" alt="(FILES) This file picture dated on January 14, 2015 shows the head of the metalworking industry federation of French union CGT Philippe Martinez giving a press conference, in Paris, one day after his application for the post of general secretary was rejected by the union's national committee. Philippe Martinez was appointed on February 3, 2015 as the head of the CGT union. AFP PHOTO/THOMAS SAMSON" title="THOMAS SAMSON / AFP" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></span>      <div class="grid_8 omega">
+         <h3 class=" "><a href="http://social.blog.lemonde.fr/2018/10/05/la-direction-de-la-cgt-face-a-une-fronde-dextreme-gauche/">La direction de la CGT face à une fronde d’extrême gauche
+
+<span class="type_element mgl5">Post de blog</span>
+</a></h3>
+<p class="txt3">Le secrétaire général de l’union départementale CGT des Boûches-du-Rhône, Olivier Mateu, estime que la centrale vient d’entériner « la négation de l’antagonisme existant entre exploiteurs et exploités ».</p>
+      </div>
+      <div class="grid_8 prefix_3 omega alpha clearfix mgb16">
+   <p>
+      <span class="partage txt1 block txt_gris_clair">
+   partage
+   <span class="facebook fb13x13_gris" data-href="http://social.blog.lemonde.fr/2018/10/05/la-direction-de-la-cgt-face-a-une-fronde-dextreme-gauche/">facebook</span>
+   <span class="twitter tw13x13_gris" data-href="http://social.blog.lemonde.fr/2018/10/05/la-direction-de-la-cgt-face-a-une-fronde-dextreme-gauche/" data-title="La direction de la CGT face &agrave; une fronde d&rsquo;extr&ecirc;me gauche">twitter</span>
+</span>
+   </p>
+</div>
+
+
+   </div>
+
+</article>
+
+
+
+   </section>
+       <div id="dfp-partenaire_middle" class="dfp_slot" data-format="partenaire_middle"></div>
+</div>
+
+
+<div class="fleuve">
+</div>
+
+   <div class="conteneur_pagination">
+
+         <span class="prev inactif">&lsaquo;</span>
+
+   <ul class="pagination">
+
+         <li><span class="page actif">1</span></li>
+         <li>
+<a href="/actualite-en-continu/2.html" class="page">2</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/3.html" class="page">3</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/4.html" class="page">4</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/5.html" class="page">5</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/6.html" class="page">6</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/7.html" class="page">7</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/8.html" class="page">8</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/9.html" class="page">9</a>
+</li>
+         <li>
+<a href="/actualite-en-continu/10.html" class="page">10</a>
+</li>
+
+         <li class="adroite">
+<a href="/actualite-en-continu/25.html" class="page">25</a>
+</li>
+
+      <li class="plus adroite"><span class="page">...</span>
+         <div class="grid_12 alpha omega">
+            <span class="pointeur"></span>
+            <ul>
+                  <li>
+<a href="/actualite-en-continu/20.html" class="page">20</a>
+</li>
+
+
+            </ul>
+         </div>
+      </li>
+
+   </ul>
+
+   <span class="next obf" data-href="L2FjdHVhbGl0ZS1lbi1jb250aW51LzIuaHRtbA==">›</span>   </div>
+
+
+<script>
+    require(['jquery'], function ($) {
+        'use strict';
+        $('.permalien span').on('click', function () {
+            $(this).parent().toggleClass('block');
+        });
+    });
+    require(['lmd/core/social/facebook'], function (facebook) {
+        'use strict';
+        facebook.partage('.partage .facebook', {xt: 'Partage_Facebook_Fleuve'});
+    });
+    require(['lmd/core/social/twitter'], function (twitter) {
+        'use strict';
+        twitter.partage('.partage .twitter', {xt: 'Partage_Twitter_Fleuve'});
+    });
+
+    // For rubrique marque items, call xiti hit on scroll visible and on click
+    require(['jquery', 'lmd/module/xiti/hit', 'lmd/util/url-tools', 'lib/jquery/plugin/jquery.waypoint'], function ($, xiti, urlTools) {
+        'use strict';
+
+        var $rubriquesMarques = $('.rubrique_marque_fleuve');
+        if ($rubriquesMarques.length === 0) {
+            return;
+        }
+
+        // On Scroll, check if items are visible on screen
+        $rubriquesMarques.waypoint(function () {
+            var label;
+            var ati = getAti(this);
+            if (!ati) {
+                return;
+            }
+            label = lmd.context.page.xiti.xtpage + '&ati=' + ati;
+            return xiti.hit(this, 'F', lmd.context.page.xiti.xtn2, label);
+        }, {
+            triggerOnce: true,
+            offset: '100%'
+        });
+
+        // For each rubrique marque item, send tag on click
+        $rubriquesMarques.click(function (e) {
+            // Call xiti.adc only on image click, and link click, which isn't author link
+            if (e.target.tagName === 'IMG' || (e.target.tagName === 'A' && e.target.className !== 'auteur')) {
+                var label = getAti(this);
+                if (label) {
+                    xiti.adc(this, label);
+                }
+            }
+        });
+
+        // Get title, wrapped for tagging
+        function getAti(elmt) {
+            var title = $.trim($(elmt).find('h3').text());
+            if (!title) {
+                return;
+            }
+            title = urlTools.normalize(title);
+            return 'INT-47-[PUB_' + title + ']';
+        }
+    });
+</script>
+
+         </div>
+
+
+         
+
+         
+      </div><!-- /col gauche -->
+      <!-- col droite -->
+      <div class="grid_6 omega col_droite">
+         <!--conteneur-->
+            
+
+
+
+
+    
+
+    
+
+    <div class="mgb16"><a href="https://promo.lemonde.fr/jeunes/#xtor=CS1-263[BOUTONS_LMFR]-[COL_DROITE]-5-[Home]" class="opacity_hover" onclick="return xt_click(this, "C", "", "Abo::Col_droite", "N")" ><img id="bt_recrut_abo" src="https://s1.lemde.fr/mmpub/img/widget/583841e6653525.14456160/9056c44adaee9436b0a7c6a0e7ede142.jpg" alt="Découvrez l&#039édition abonnés" data-lazyload="false" /></a></div>
+
+    <div id="dfp-pave_haut" class="dfp_slot" data-format="pave_haut"></div>
+    <div id="aj-bdba22" data-aj-uri="/ajah/5m/lemonde/www/Controller_Module_Social_Pluspartages/actionAfficher/W2Z/hbH/NlX/Q--/?key=377c76f6dddbc30960db13f7eeffc0c78bd72ed5"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-bdba22").ajah({ url: "/ajah/5m/lemonde/www/Controller_Module_Social_Pluspartages/actionAfficher/W2Z/hbH/NlX/Q--/?key=377c76f6dddbc30960db13f7eeffc0c78bd72ed5" })});</script>
+    <div id="aj-b9ca3d" data-aj-uri="/ajah/5m/lemonde/www/Controller_Module_Abonnes_AppelJelec/actionAfficher/W3R/ydW/UsI/kJMT0NBQk9VTkUxRSJd/?key=de888a96fbd2dfd1a5b509e83a0e27eff6c19792"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-b9ca3d").ajah({ url: "/ajah/5m/lemonde/www/Controller_Module_Abonnes_AppelJelec/actionAfficher/W3R/ydW/UsI/kJMT0NBQk9VTkUxRSJd/?key=de888a96fbd2dfd1a5b509e83a0e27eff6c19792" })});</script>
+
+
+    <div id="dfp-pave_milieu" class="dfp_slot" data-format="pave_milieu"></div>
+
+      </div>
+   </div><!--/conteneur 18-->
+</div><!--/global - haut une-->
+
+
+        <div id="dfp-banniere_basse" class="dfp_slot" data-format="banniere_basse"></div>
+
+    <div id="aj-60aeee" data-aj-uri="/ajah/5m/lemonde/web/Controller_Module_Deroule_Bloc_Paves/actionAfficherBizdevOffre/W25/1bG/wsd/HJ1ZV0-/?key=60120db6054116e2fd372fc54b39980bddbac30c"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-60aeee").ajah({ url: "/ajah/5m/lemonde/web/Controller_Module_Deroule_Bloc_Paves/actionAfficherBizdevOffre/W25/1bG/wsd/HJ1ZV0-/?key=60120db6054116e2fd372fc54b39980bddbac30c" })});</script>
+    <div id="aj-704004" data-aj-uri="/ajah/5m/lemonde/www/Controller_Module_General_Footer_Serviciel/actionAfficher/WyJ/SVU/JSS/VFVRV9TRVJWSUNFUyJd/?key=48ef2c0f4847cd071d1f0a44fc735c67dafe3a50"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-704004").ajah({ url: "/ajah/5m/lemonde/www/Controller_Module_General_Footer_Serviciel/actionAfficher/WyJ/SVU/JSS/VFVRV9TRVJWSUNFUyJd/?key=48ef2c0f4847cd071d1f0a44fc735c67dafe3a50" })});</script>
+    <div id="footer">
+    <div class="footer_gratuit txt3">
+<a class="zone_abo" rel="nofollow" href="https://abo.lemonde.fr#xtor=CS1-263[BOUTONS_LMFR]-[FOOTER]--[Autre]" onclick="return xt_click(this, 'C', '', 'Abo::Footer', 'N')">
+            <div class="abonnement">
+                <p class="contenu">
+                <span>Le monde abonnements</span>
+                Profitez du journal où et quand vous voulez. Abonnements papier, offres 100 % numériques sur Web et tablette.
+                </p>
+                <p class="bt">
+                <span class="btn">S'abonner au Monde à partir de 1 €</span>
+                </p>
+            </div>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="350" height="155" alt=" " data-src="https://s1.lemde.fr/medias/web/1.2.708/img/elements_lm/footer_supports.png" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina"></a>
+        <div class="deja_abonne">
+            <div>
+                <span class="accroche">Déjà abonné au<br>journal <em>Le Monde</em> ?</span>
+                <ul>
+                    <li>
+                        <a href="https://www.lemonde.fr/sfuser/account" target="_blank" rel="nofollow">
+                            Activez votre accès à l'Édition abonnés du Monde.fr
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://moncompte.lemonde.fr/" target="_blank" rel="nofollow">
+                            Gérez votre abonnement
+                        </a>
+                    </li>
+                </ul>
+            </div>
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="123" height="78" alt=" " data-src="https://s1.lemde.fr/medias/web/1.2.708/img/elements_lm/footer_journaux.png" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina">        </div>
+    </div>
+</div>
+
+<footer id="footer-page" class="univers-sombre">
+    <section>
+        <div>
+            <strong class="titre3" data-toggle="context">Les rubriques du Monde.fr</strong>
+            <ul>
+                <li><a href="/international/" title="International" target="_self">International</a></li>
+                <li><a href="/politique/" title="Politique" target="_self">Politique</a></li>
+                <li><a href="/societe/" title="Soci&eacute;t&eacute;" target="_self">Soci&eacute;t&eacute;</a></li>
+                <li><a href="/economie/" title="&Eacute;conomie" target="_self">&Eacute;conomie</a></li>
+                <li><a href="/culture/" title="Culture" target="_self">Culture</a></li>
+                <li><a href="/sport/" title="Sport" target="_self">Sport</a></li>
+                <li><a href="/pixels/" title="Techno" target="_self">Techno</a></li>
+                <li><a href="/m-styles/" title="Style" target="_self">Style</a></li>
+                <li><a href="/m-perso/" title="L'&eacute;poque" target="_self">L'&eacute;poque</a></li>
+                <li><a href="/idees/" title="Id&eacute;es" target="_self">Id&eacute;es</a></li>
+                <li><a href="/planete/" title="Plan&egrave;te" target="_self">Plan&egrave;te</a></li>
+                <li><a href="/education/" title="&Eacute;ducation" target="_self">&Eacute;ducation</a></li>
+                <li><a href="/disparitions/" title="Disparitions" target="_self">Disparitions</a></li>
+                <li><a href="/sante/" title="Sant&eacute;" target="_self">Sant&eacute;</a></li>
+                <li><a href="/monde-academie/" title="Monde Acad&eacute;mie" target="_self">Monde Acad&eacute;mie</a></li>
+                <li><a href="/guides-d-achat/" title="Guides d'achat" target="_self">Guides d'achat</a></li>
+                <li><a href="/les-recettes-du-monde/" title="Recettes de cuisine" target="_self">Recettes de cuisine</a></li>
+            </ul>
+        </div>
+        <div>
+            <strong class="titre3" data-toggle="context">Les services du Monde</strong>
+            <ul>
+                <li><a href="https://evenements-abonnes.lemonde.fr/" title="Le Monde &Eacute;v&eacute;nements abonn&eacute;s" target="_self">Le Monde &Eacute;v&eacute;nements abonn&eacute;s</a></li>
+                <li><a href="/festival/" title="Le Monde Festival" target="_self">Le Monde Festival</a></li>
+                <li><a href="http://voiture-occasion.lemonde.fr" title="Annonces auto" target="_self">Annonces auto</a></li>
+                <li><a href="http://immobilier.lemonde.fr/" title="Annonces immo" target="_self">Annonces immo</a></li>
+                <li><a href="https://conjugaison.lemonde.fr" title="Conjugaison" target="_self">Conjugaison</a></li>
+                <li><a href="https://anglais.lemonde.fr" title="Cours d'anglais" target="_self">Cours d'anglais</a></li>
+                <li><a href="/jeux/" title="Jeux" target="_self">Jeux</a></li>
+                <li><a href="https://formation-professionnelle.lemonde.fr/" title="Formation professionnelle" target="_self">Formation professionnelle</a></li>
+                <li><a href="http://boutique.lemonde.fr/#xtor=AD-9" title="La boutique du Monde" target="_blank">La boutique du Monde</a></li>
+                <li><a href="http://prix-immobilier.lemonde.fr/prix-immobilier/" title="Prix de l'immobilier" target="_self">Prix de l'immobilier</a></li>
+                <li><a href="http://shopping.lemonde.fr" title="Shopping" target="_self">Shopping</a></li>
+                <li><a href="https://www.sourcesure.eu/" title="Source S&ucirc;re" target="_blank">Source S&ucirc;re</a></li>
+                <li><a href="/pratique/trafic-idf.html" title="Trafic" target="_self">Trafic</a></li>
+                <li><a href="/verification/" title="Decodex" target="_self">Decodex</a></li>
+                <li><a href="https://progresser-orthographe.lemonde.fr/" title="Orthographe et grammaire" target="_self">Orthographe et grammaire</a></li>
+            </ul>
+        </div>
+        <div>
+            <strong class="titre3" data-toggle="context">Sur le web</strong>
+            <ul>
+                <li><a href="http://television.telerama.fr/tele/chaine-tv/tf1,192.php" title="Programme TV de TF1 en replay" target="_self">Programme TV de TF1 en replay</a></li>
+                <li><a href="http://television.telerama.fr/tele/chaine-tv/arte,111.php" title="Programme TV de Arte en replay" target="_self">Programme TV de Arte en replay</a></li>
+                <li><a href="http://television.telerama.fr/television/" title="T&eacute;l&eacute;vision" target="_self">T&eacute;l&eacute;vision</a></li>
+                <li><a href="http://sortir.telerama.fr/" title="Sortir &agrave; Paris" target="_self">Sortir &agrave; Paris</a></li>
+                <li><a href="http://www.telerama.fr/cine/film_datesortie.php" title="Les sorties cin&eacute;" target="_self">Les sorties cin&eacute;</a></li>
+                                <li><a href="http://www.telerama.fr/livres/livre_prefredaction.php" title="S&eacute;lection de livres" target="_self">S&eacute;lection de livres</a></li>
+                <li><a href="http://television.telerama.fr/tele/chaine-tv/france-5,47.php" title="Programme TV de France 5 en replay" target="_self">Programme TV de France 5 en replay</a></li>
+                <li><a href="http://sortir.telerama.fr/paris/spectacles.php" title="Spectacles &agrave; Paris" target="_self">Spectacles &agrave; Paris</a></li>
+                <li><a href="http://boutique.telerama.fr/index.php/hors-series.html" title="Hors-s&eacute;rie" target="_self">Hors-s&eacute;rie</a></li>
+                <li><a href="http://www.telerama.fr/music/musique_prefredaction.php" title="Les derniers albums" target="_self">Les derniers albums</a></li>
+            </ul>
+        </div>
+        <div>
+            <strong class="titre3" data-toggle="context">Les sites du Groupe</strong>
+            <ul>
+                <li><a href="/service/qui_sommes_nous_telerama.html" title="T&eacute;l&eacute;rama.fr" target="_self">T&eacute;l&eacute;rama.fr</a></li>
+                <li><a href="/service/qui_sommes_nous_talents.html" title="Talents.fr" target="_self">Talents.fr</a></li>
+                <li><a href="http://www.huffingtonpost.fr/" title="Le HuffPost" target="_blank">Le HuffPost</a></li>
+                <li><a href="http://www.courrierinternational.com/" title="CourrierInternational.com" target="_blank">CourrierInternational.com</a></li>
+                <li><a href="http://www.monde-diplomatique.fr/" title="Monde-Diplomatique.fr" target="_blank">Monde-Diplomatique.fr</a></li>
+                <li><a href="http://www.sdllemonde.fr/" title="La Soci&eacute;t&eacute; des lecteurs du Monde" target="_blank">La Soci&eacute;t&eacute; des lecteurs du Monde</a></li>
+                <li><a href="/kiosque/recherche/" title="Le Prix Le Monde de la recherche" target="_blank">Le Prix Le Monde de la recherche</a></li>
+                <li><a href="https://www.nouvelobs.com/" title="L'Obs" target="_blank">L'Obs</a></li>
+            </ul>
+        </div>
+        <div class="liste-liens-data">
+            <strong class="titre3" data-toggle="context">Partenaires Le Monde</strong>
+            <ul class="liste-plate">
+                <li><a href="http://dicocitations.lemonde.fr/poesie-amour-citations-amour.php" title="po&eacute;sie et citations d'amour" target="_self">po&eacute;sie et citations d'amour</a></li>
+                                <li><a href="https://jardinage.lemonde.fr" title="Jardinage" target="_self">Jardinage</a></li>
+                <li><a href="" title="" target="_self"></a></li>
+                <li><a href="https://formation-professionnelle.lemonde.fr/recherche/formation-javascript" title="Formation Javascript" target="_self">Formation Javascript</a></li>
+                                <li><a href="https://codepromo.lemonde.fr" title="Codes promo" target="_self">Codes promo</a></li>
+                <li><a href="https://codepromo.lemonde.fr/code-promo-conforama" title="Code promo Conforama" target="_self">Code promo Conforama</a></li>
+                                <li><a href="https://paroles2chansons.lemonde.fr/paroles-alrima/paroles-banga.html" title="Alrima - Banga" target="_self">Alrima - Banga</a></li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="liste-plate">
+            <strong>Suivez-nous</strong>
+            <a href="https://www.facebook.com/lemonde.fr" title="Suivez-nous sur Facebook" class="svg-facebook" target="_blank">Suivez-nous sur Facebook</a>
+            <a href="https://twitter.com/lemondefr" title="Suivez-nous sur Twitter" class="svg-twitter" target="_blank">Suivez-nous sur Twitter</a>
+            <a href="https://plus.google.com/+LeMondefr" title="Suivez-nous sur Google Plus" class="svg-google" target="_blank">Suivez-nous sur Google Plus</a>
+            <a href="https://www.instagram.com/lemondefr/" title="Instagram" target="_blank" class="svg-instagram">Suivez-nous sur Instagram</a>
+            <a href="/mobile/" title="Suivez-nous sur Mobile" class="svg-mobile">Suivez-nous sur Mobile</a>
+            <a href="/rss/" title="Abonnez-nous à nos flux RSS" class="svg-rss">Abonnez-nous à nos flux RSS</a>
+        </div>
+        <div class="liste-plate">
+            <a href="https://secure.lemonde.fr/sfuser/newsletters" title="Recevez nos newsletters" target="_self" class="lien-newsletter">Recevez nos newsletters</a>
+        </div>
+        <div class="liste-plate">
+            <strong>Index actualités</strong>
+            <a href="/index-rubriques/A/" title="A" target="_self">A</a>
+            <a href="/index-rubriques/B/" title="B" target="_self">B</a>
+            <a href="/index-rubriques/C/" title="C" target="_self">C</a>
+            <a href="/index-rubriques/D/" title="D" target="_self">D</a>
+            <a href="/index-rubriques/F/" title="E" target="_self">E</a>
+            <a href="/index-rubriques/F/" title="F" target="_self">F</a>
+            <a href="/index-rubriques/G/" title="G" target="_self">G</a>
+            <a href="/index-rubriques/H/" title="H" target="_self">H</a>
+            <a href="/index-rubriques/I/" title="I" target="_self">I</a>
+            <a href="/index-rubriques/J/" title="J" target="_self">J</a>
+            <a href="/index-rubriques/K/" title="K" target="_self">K</a>
+            <a href="/index-rubriques/L/" title="L" target="_self">L</a>
+            <a href="/index-rubriques/M/" title="M" target="_self">M</a>
+            <a href="/index-rubriques/N/" title="N" target="_self">N</a>
+            <a href="/index-rubriques/O/" title="O" target="_self">O</a>
+            <a href="/index-rubriques/P/" title="P" target="_self">P</a>
+            <a href="/index-rubriques/Q/" title="Q" target="_self">Q</a>
+            <a href="/index-rubriques/R/" title="R" target="_self">R</a>
+            <a href="/index-rubriques/S/" title="S" target="_self">S</a>
+            <a href="/index-rubriques/T/" title="T" target="_self">T</a>
+            <a href="/index-rubriques/U/" title="U" target="_self">U</a>
+            <a href="/index-rubriques/V/" title="V" target="_self">V</a>
+            <a href="/index-rubriques/W/" title="W" target="_self">W</a>
+            <a href="/index-rubriques/X/" title="X" target="_self">X</a>
+            <a href="/index-rubriques/Y/" title="Y" target="_self">Y</a>
+            <a href="/index-rubriques/Z/" title="Z" target="_self">Z</a>
+        </div>
+    </section>
+    <section class="liste-plate _separateur">
+        <a href="/service/licence_et_droits_de_reproduction.html" title="© Le Monde.fr" target="_self" rel="nofollow">© Le Monde.fr</a>
+        |&nbsp;<a href="https://www.lemonde.fr/cgv" title="CGV" target="_self" rel="nofollow">CGV</a>
+        |&nbsp;<a href="http://www.ojd-internet.com/chiffres" title="Fréquentation certifiée par l'OJD" target="_blank" rel="nofollow">Fréquentation certifiée par l'OJD</a>
+        |&nbsp;<a href="/confidentialite" title="Politique de confidentialité" target="_self" rel="nofollow">Politique de confidentialité</a>
+        |&nbsp;<a href="https://moncompte.lemonde.fr/mentions-legales" title="Mentions légales" target="_self" rel="nofollow">Mentions légales</a>
+        |&nbsp;<a href="/service/qui_sommes_nous.html" title="Qui sommes-nous ?" target="_self" rel="nofollow">Qui sommes-nous ?</a>
+        |&nbsp;<a href="/actualite-medias/article/2010/11/03/la-charte-d-ethique-et-de-deontologie-du-groupe-le-monde_1434737_3236.html" title="Charte groupe" target="_self" rel="nofollow">Charte groupe</a>
+        |&nbsp;<a href="http://mpublicite.fr" title="Publicité" target="_blank" rel="nofollow">Publicité</a>
+        |&nbsp;<a href="/faq/" title="Foire aux questions" target="_blank" rel="nofollow">Aide (FAQ)</a>
+    </section>
+    <p class="texte-discret">
+        Journal d'information en ligne, Le Monde.fr offre à ses visiteurs un
+        panorama complet de l'actualité. Découvrez chaque jour toute l'info en
+        direct (de la politique à l'économie en passant par le sport et la
+        météo) sur Le Monde.fr, le site de news leader de la presse française
+        en ligne.
+    </p>
+</footer>
+
+    
+    </div><!--/habillagepub-->
+
+    <script>
+require(['lmd/ui/toggle']);
+</script>
+    <div id="dfp-dhtml" class="dfp_slot" data-format='dhtml'></div>
+<script>require(['lmd/core/dfp']);</script>
+
+<script>require(["lmd/core/ux/widget-position"], function(a) { a.init(); });</script>
+
+    
+<script>
+    if (window.xtparam) {
+        window.xtparam += '&x3=';
+    } else {
+        window.xtparam = '&x3=';
+    }
+</script>
+
+<script>
+    var blockAdBlock = (function (lmd) {
+        'use strict';
+
+        var blockAdBlock;
+        var fnCallback;
+        var status;
+        // AT Internet x4 values : 1 and 2 are used in script, 3 for noscript and 4 not used here.
+        var adblockStatus = {
+            'YES': 1,
+            'NO': 2,
+            'NOSCRIPT': 3,
+            'NSP': 4
+        };
+
+        var send = function () {
+            require(['lmd/module/xiti/hit'], function (xiti) {
+                if (!xiti.has_hit('Ad_Block::Actif')) {
+                    xiti.hit(this, 'C', '0', 'Ad_Block::Actif', 'A');
+                }
+            });
+        };
+
+        var callXiti = function (adbStatus) {
+            status = adbStatus;
+            if (status === adblockStatus.YES) {
+                send();
+            }
+
+            if (fnCallback) {
+                fnCallback(status);
+            }
+        };
+
+        require(['xitistatus'], function () {
+            blockAdBlock = new BlockAdBlock({
+                checkOnLoad: false,
+                resetOnEnd: true
+            });
+
+            if (blockAdBlock === undefined) {
+                callXiti(adblockStatus.YES);
+            } else {
+                blockAdBlock.onDetected(function () {
+                    callXiti(adblockStatus.YES);
+                });
+
+                blockAdBlock.onNotDetected(function () {
+                    callXiti(adblockStatus.NO);
+                });
+
+                blockAdBlock.check();
+            }
+        }, function (err) {
+            callXiti(adblockStatus.NSP)
+        });
+
+        return {
+            getStatus: function (fn) {
+                if (status) {
+                    fn(status);
+                } else {
+                    fnCallback = fn;
+                }
+            }
+        };
+    }(lmd));
+</script>
+
+<div id="xiti-logo">
+    <script>
+        var xiti = (function (blockAdBlock) {
+            var loadAfter = function (e, fn) {
+                var rs = e.readyState;
+                if (rs && rs !== 'complete' && rs !== 'loaded') {
+                    return;
+                }
+                try {
+                    fn.apply(this);
+                } catch (ex) {
+
+                }
+            },
+
+            loadJs = function (src, onload) {
+                var a = document.createElement('script');
+                a.type = 'text/javascript';
+                a.async = false;
+                a.src = src;
+                if (typeof onload === 'function') {
+                    if (a.addEventListener) {
+                        a.addEventListener('load', function () {
+                            loadAfter(a, onload);
+                        });
+                    } else {
+                        a.attachEvent && a.attachEvent('onreadystatechange', function () {
+                            loadAfter(a, onload);
+                        });
+                    }
+                }
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] || document.getElementsByTagName('script')[0].parentNode).insertBefore(a, null);
+            },
+
+            loadCore = function () {
+                loadJs(lmd.conf.medias.location.base_url_version + '/js/lib/xiti/4.6.4/xtcore.js', function () {
+                    require(['lmd/module/xiti/hit'], function (hit_xiti) {
+                        hit_xiti.resolve();
+                    });
+                });
+                lmd.context.page.xiti_call = true;
+            };
+
+            return {
+                type: {
+                    inscrits: 'INSCRIT'
+                },
+                init: function () {
+                    require(['lmd/ui/refresh', 'jquery'], function (refresh, $) {
+                        window.xtcustom.ir = refresh.isAutoRefreshed().toString();
+                        if (window.xtparam === undefined || window.xtparam === null) {
+                            window.xtparam = '';
+                        }
+
+                        var progDeploy = parseInt($.cookie('prog-deploy2'), 10);
+                        if (typeof(progDeploy) === 'number' && progDeploy >= 0) {
+                            window.xtcustom.RefonteDesktop = progDeploy;
+                        } else {
+                            window.xtcustom.RefonteDesktop = 'false';
+                        }
+
+                        blockAdBlock.getStatus(function (status) {
+                            window.xtparam += '&ac=' + window.xt_ac + '&an=' + window.xt_an + window.xt_multc + '&x4=' + status;
+                            loadJs(lmd.conf.medias.location.base_url_version + '/js/lib/xiti/4.4.007/xtclicks.js', loadCore);
+                        });
+                    })
+                }
+            };
+        })(blockAdBlock);
+
+        xtnv = document;
+        xtsd = (document.location.protocol === 'http:') ? 'http://logc2' : 'https://logs13';
+        xtsite = function() {
+            var viewPortWitdh = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            var breakpoints = lmd.context.page.xiti.xtbreakpoints || {};
+            var xtsite = lmd.context.page.xiti.xtsite;
+
+            for (var device in breakpoints) {
+                var isValidBreakpoint = true;
+
+                if (breakpoints[device]['min']) {
+                    isValidBreakpoint = viewPortWitdh >= breakpoints[device]['min'];
+                }
+
+                if (isValidBreakpoint && breakpoints[device]['max']) {
+                    isValidBreakpoint = viewPortWitdh <= breakpoints[device]['max'];
+                }
+
+                if (isValidBreakpoint) {
+                    xtsite = lmd.context.page.xiti.xtsites[device];
+                    break;
+                }
+            }
+
+            lmd.context.page.xiti.xtsite = xtsite;
+
+            return xtsite;
+        }();
+        xtn2 = lmd.context.page.xiti.xtn2; 
+        xtcustom = lmd.context.page.xiti.xtcustom; 
+        xtpage = lmd.context.page.xiti.xtpage; 
+        xtergo = lmd.context.page.xiti.xtergo ? '1' : '0'; 
+        xtdi ='';
+        window.xt_an = ''; 
+        window.xt_ac = ''; 
+
+        window.xt_multc = lmd.context.page.xiti.xt_multc;
+        if (window.xt_multc === null) {
+            window.xt_multc = '';
+        }
+
+        xt_tag = lmd.context.page.xiti.xt_tag; 
+        if (xt_tag != null) {
+            if (window.xtparam != null) {
+                window.xtparam += '&tag=' + xt_tag;
+            } else {
+                window.xtparam = '&tag=' + xt_tag;
+            }
+        }
+        var x12 = lmd.context.page.xiti.x12;
+        if (x12 != null) {
+            if (window.xtparam != null) {
+                window.xtparam += '&x12=' + x12;
+            } else {
+                window.xtparam = '&x12=' + x12;
+            }
+        }
+
+        var x5 = lmd.context.page.xiti.x5;
+        if (x5 != null) {
+            if (window.xtparam != null) {
+                window.xtparam += '&x5=' + x5;
+            } else {
+                window.xtparam = '&x5=' + x5;
+            }
+        }
+
+        var element = false;
+        var restreint = false;
+        var tdb_user_id = '';
+
+        if (typeof lmd === 'undefined' || lmd === '') {
+            xiti.init();
+        } else {
+            if (lmd.context !== undefined && lmd.context !== null && lmd.context.element !== undefined && lmd.context.element !== null && lmd.context.element.restreint !== undefined) {
+                element = true;
+                restreint = lmd.context.element.restreint;
+            }
+
+            tdb_user_id = (document.cookie.match('(^|; )tdb_user_id=([^;]*)') || 0)[2];
+            if (tdb_user_id === undefined || tdb_user_id === '') {
+                if (element) {
+                    window.xt_multc += '&x8=' + (restreint ? '24' : '13');
+                }
+                xiti.init();
+            } else {
+                require(['jquery', 'lmd/core/auth'], function ($, a) {
+                    a.loadUser().done(function () {
+                        var params;
+                        var user = a.user;
+                        if (user !== null) {
+                            if (typeof user.magento_id !== "undefined" && user.magento_id) {
+                                window.xt_an = user.magento_id;
+                            } else {
+                                window.xt_an = '';
+                            }
+
+                            if ('inscrit' === user.type) {
+                                window.xt_ac = xiti.type.inscrits;
+
+                                if (element) {
+                                    params = { 'item_id': lmd.context.element.id };
+                                    $.getJSON('/ws/1/restreint/verif_item/', params).done($.proxy(function (response) {
+                                        var achat_acte = response.url !== null && response.url.length > 0;
+                                        window.xt_multc += '&x8=' + (restreint ? (achat_acte ? '23' : '24') : '13');
+
+                                        xiti.init();
+                                    }, this));
+                                } else {
+                                    xiti.init();
+                                }
+                            }
+
+                            else if (user.type === 'abonne') {
+                                if (typeof user.selection_code !== "undefined" && user.selection_code) {
+                                    window.xt_ac = user.selection_code;
+                                }
+
+                                if (element) {
+                                    window.xt_multc += '&x8=' + (restreint ? '23' : '13');
+                                }
+
+                                xiti.init();
+                            }
+                        } else {
+                            xiti.init();
+                        }
+                    });
+                });
+            }
+        }
+    </script>
+    <object>
+        <noscript>
+            <img src="https://logs13.xiti.com/hit.xiti?s=43260&s2=&p=&ptype=&di=&an=&ac=&x4=3" width="1" height="1" alt="">
+        </noscript>
+    </object>
+
+    <script>
+        (function (w) {
+            require(
+                ['lmd/module/xiti/navigation'],
+                function (xiti) {
+
+                    switch(w.lmd.context.pageType) {
+                        case 'Rubrique_Une': {
+                            xiti.trackHome();
+                            break;
+                        }
+                        case 'Element': {
+                            var type = w.lmd.context.element.type.nom;
+
+                            if (type === 'live') {
+                                xiti.trackLive();
+                            } else if (type === 'article') {
+                                if (w.lmd.context.application === "abonnes") {
+                                    xiti.trackArticleAbonne();
+                                } else if (w.lmd.context.element.restreint) {
+                                    xiti.trackArticleRestreint();
+                                } else {
+                                    xiti.trackArticle();
+                                }
+                            }
+
+                            break;
+                        }
+                    }
+                });
+        }(window));
+    </script>
+</div>
+
+<script>
+    if (lmd.conf.fsw.google_analytics) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-15394037-2']);
+        _gaq.push(['_setDomainName', '.lemonde.fr']);
+        _gaq.push(['_setVisitorCookieTimeout', 86400 * 30 * 13 * 1000]); // 13 months in milliseconds
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+        var ga_src_require = ('https:' == document.location.protocol) ? 'https://ssl' : 'http://www';
+        require([ga_src_require + '.google-analytics.com/ga.js']);
+    }
+</script>
+
+
+<script>if(lmd.conf.fsw.chartbeat){_sf_async_config={uid:12231,domain:"lemonde.fr"};lmd.onload(function(){window._sf_endpt=(new Date).getTime();require([document.location.protocol+"//static.chartbeat.com/js/chartbeat.js"])});}</script>
+
+<script>lmd.conf.fsw.ownpage && lmd.onload(function(){ require(['lmd/core/metrics/ownpage'], function(op){ op.init(); }); });</script>
+
+<script> require(['lmd/core/footer-tracking']); </script>
+
+    
+</body>
+</html>
+
+<!--Rosae 2018/10/05 23:15:57 5.77 27.20 web01:30198:7.84 httpfront-->

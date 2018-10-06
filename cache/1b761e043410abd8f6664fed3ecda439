@@ -1,0 +1,1239 @@
+<!doctype html>
+<html>
+    <script type="text/javascript">
+var kameleoonLoadingTimeout = 1000;
+var kameleoonStartLoadTime = new Date().getTime();
+if (!document.getElementById("kameleoonLoadingStyleSheet") && !window.kameleoonDisplayPageTimeOut) {
+    var kameleoonS = document.getElementsByTagName("script")[0];
+    var kameleoonCc = "* { visibility: hidden !important; background-image: none !important; }";
+    var kameleoonStn = document.createElement("style");
+    kameleoonStn.type = "text/css";
+    kameleoonStn.id = "kameleoonLoadingStyleSheet";
+    if (kameleoonStn.styleSheet) {
+        kameleoonStn.styleSheet.cssText = kameleoonCc;
+    } else {
+        kameleoonStn.appendChild(document.createTextNode(kameleoonCc));
+    }
+    kameleoonS.parentNode.insertBefore(kameleoonStn, kameleoonS);
+    window.kameleoonDisplayPage = function() {
+        if (kameleoonStn.parentNode) {
+            kameleoonStn.parentNode.removeChild(kameleoonStn);
+        }
+    };
+    window.kameleoonDisplayPageTimeOut = window.setTimeout(window.kameleoonDisplayPage, kameleoonLoadingTimeout);
+}
+</script>
+<script src="//static.kameleoon.com/css/customers/r9u0567aww/0/kameleoon.js" async></script>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MS62MT');</script>
+<!-- End Google Tag Manager -->
+
+
+    <head>
+    <script>
+if("undefined"===typeof lmd||!lmd)lmd={};(function(a,b){var d=a.onerror,c="";a.onerror=function(a,e,f){d&&d.apply(this,[a,e,f]);c=e+" line:"+f+" : "+a;"undefined"!==typeof b.jserrors&&"function"===typeof b.jserrors.push?10>=b.jserrors.length&&b.jserrors.push(c):b.jserrors=[c]}})(this,lmd);
+</script>
+
+
+<script>if("undefined"===typeof lmd||!lmd)lmd={};lmd.context={"pageType":"Element","rubrique":{"id":3212,"url_friendly":"afrique","parents":[],"rubrique_ombrelle":{"id":3212,"url_friendly":"afrique"},"maquette":"technologies_home"},"rubriques":[{"id":1755047,"url_friendly":"swaziland"},{"id":3212,"url_friendly":"afrique"},{"id":4879925,"url_friendly":"afrique-sante"},{"id":4858648,"url_friendly":"developpement"},{"id":1718724,"url_friendly":"sante-environnement"},{"id":3244,"url_friendly":"planete"},{"id":1718700,"url_friendly":"pandemies"},{"id":1651302,"url_friendly":"sante"}],"element":{"id":5365419,"cms_id":621557,"titre":"Comment l\u2019Eswatini a mis sous contr\u00f4le la double \u00e9pid\u00e9mie sida-tuberculose","gabarit":"colright","partenaire":null,"nature_editoriale":{"id":10,"nom":"compte_rendu","libelle":"Compte rendu"},"type":{"id":4,"nom":"article","libelle":"Article","est_en_continu":true,"est_editorial":true,"icon":"article"},"restreint":false,"url_friendly":"comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose","link":"\/afrique\/article\/2018\/10\/05\/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html","facebook_likes":null,"nb_signes":6627,"has_atome_video":false},"campagne":null,"page":{"advert":{"active":true,"colonne_light":false,"adserver":"smartadserver","smart":{"site":"50270","page":513192,"query":null,"all_formats":"21489,21490,21935,21486,21482,21488,21483,21484,21485,25258,25259,25260,21936,21487,21492,21493,21938,21937,23371,23885,21488,15187,15188,29752,29753,62479,62480,62483,62479,62480,62483","domain":"ww690.smartadserver.com","render_mode":0}},"dfp":{"tag":"\/128139881\/LM_lemonde\/afrique\/afrique\/article\/","formats":"{\"inread\":{\"desktop\":[[\"fluid\"],[2,2],[533,300]],\"mobile\":[[\"fluid\"],[2,2],[300,250]],\"tablet\":[[\"fluid\"],[2,2],[533,300]]},\"cover\":{\"desktop\":[[1,1]],\"mobile\":[[1,1]],\"tablet\":[[1,1]]},\"pave_milieu\":{\"desktop\":[[300,600],[300,250]],\"mobile\":[[\"-\"]],\"tablet\":[[300,600],[300,250]]},\"pave_haut\":{\"desktop\":[[300,250],[300,600],[300,800],[300,900],[300,1000],[300,1050]],\"mobile\":[[\"-\"]],\"tablet\":[[300,600],[300,250]]},\"pave_bas\":{\"desktop\":[[300,250]],\"mobile\":[[\"-\"]],\"tablet\":[[300,250]]},\"partenaire_middle\":{\"desktop\":[[\"fluid\"],[1,1]],\"mobile\":[[\"-\"]],\"tablet\":[[\"fluid\"],[1,1]]},\"partenaire_bottom\":{\"desktop\":[[\"fluid\"],[1,1]],\"mobile\":[[\"-\"]],\"tablet\":[[\"fluid\"],[1,1]]},\"parallaxe\":{\"desktop\":[[\"out-of-page\"]],\"mobile\":[[\"-\"]],\"tablet\":[[\"out-of-page\"]]},\"oreille_droite\":{\"desktop\":[[300,60]],\"mobile\":[[\"-\"]],\"tablet\":[[300,60]]},\"habillage\":{\"desktop\":[[\"out-of-page\"]],\"mobile\":[[\"-\"]],\"tablet\":[[\"out-of-page\"]]},\"dhtml\":{\"desktop\":[[\"out-of-page\"]],\"mobile\":[[\"out-of-page\"]],\"tablet\":[[\"out-of-page\"]]},\"banniere_haute\":{\"desktop\":[[728,90],[970,250],[\"970 \",90],[1000,90],[1000,200],[1000,300],[1000,350],[1000,400],[1000,450],[1000,500],[468,60]],\"mobile\":[[320,50]],\"tablet\":[[728,90],[970,250],[\"970 \",90],[1000,90],[1000,200],[1000,300],[1000,350],[1000,400],[1000,450],[1000,500],[468,60]]},\"banniere_basse\":{\"desktop\":[[728,90],[1000,90],[468,60]],\"mobile\":[[\"-\"]],\"tablet\":[[728,90],[1000,90],[468,60]]}}","device":"responsive","section":"afrique"},"xiti":{"xtpage":"afrique\/developpement::comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose","xtpagetype":"2-48-0","xtn2":86,"xtsite":"43260","xt_multc":"&x1=&x2=article","xt_abmv":null,"xt_chains":null,"xtcustom":{},"xt_tag":null,"xtergo":null,"xtsites":{"www":"43260","mobile":"489989"},"xtbreakpoints":{"www":{"min":768},"mobile":{"min":0,"max":767}},"x12":621557,"x2":null,"x5":null}},"application":"www"};lmd.context.item = lmd.context.element;</script>
+
+<script src="//s1.lemde.fr/conf.js"></script>
+<script src="https://s1.lemde.fr/medias/web/1.2.708/js/lmd/module/abonnes/redirection.js"></script>
+    <title>Comment l&rsquo;Eswatini a mis sous contr&ocirc;le la double &eacute;pid&eacute;mie sida-tuberculose</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="description" content="Tuberculose, jusqu&rsquo;&agrave; quand&nbsp;? (7) Depuis 2010, le nombre de nouveaux cas pour les deux infections a chut&eacute; de pr&egrave;s de la moiti&eacute; gr&acirc;ce &agrave; une mobilisation sans pr&eacute;c&eacute;dent.">
+<meta name="robots" content="index, follow, noarchive">
+
+
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta name="application-name" content="Le Monde.fr">
+<meta name="DC.language" content="fr">
+<meta name="DC.format" content="text/html">
+<meta name="DC.publisher" content="Le Monde">
+<meta name="DC.identifier" content="ISSN 1950-6244">
+
+<meta name="msapplication-tooltip" content="Le Monde.fr">
+<meta name="msapplication-navbutton-color" content="#000">
+<meta name="msapplication-starturl" content="/">
+<meta name="msapplication-task" content="name=A la Une;action-uri=/;icon-uri=/medias/web/ico/ie9-pin/une.ico">
+<meta name="msapplication-task" content="name=International;action-uri=/international/;icon-uri=/medias/web/ico/ie9-pin/international.ico">
+<meta name="msapplication-task" content="name=Politique;action-uri=/politique/;icon-uri=/medias/web/ico/ie9-pin/politique.ico">
+<meta name="msapplication-task" content="name=Economie;action-uri=/economie/;icon-uri=/medias/web/ico/ie9-pin/economie.ico">
+<meta name="msapplication-task" content="name=Sport;action-uri=/sport/;icon-uri=/medias/web/ico/ie9-pin/sport.ico">
+
+<meta property="fb:app_id" content="166878320861">
+<meta property="fb:page_id" content="571833539615193">
+
+	<meta property="og:site_name" content="Le Monde.fr" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:url" content="https://www.lemonde.fr/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html" />
+	<meta property="og:image" content="https://img.lemde.fr/2018/10/05/255/0/3000/1498/600/315/60/0/33521fb_OW5OeWawy4wBsi9EXR59IU7q.jpg" />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="315" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:title" content="Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose" />
+	<meta property="og:description" content="Tuberculose, jusqu’à quand ? (7) Depuis 2010, le nombre de nouveaux cas pour les deux infections a chuté de près de la moitié grâce à une mobilisation sans précédent." />
+	<meta property="og:image" content="https://img.lemde.fr/2018/10/05/255/0/3000/1498/600/315/60/0/33521fb_OW5OeWawy4wBsi9EXR59IU7q.jpg" />
+	<meta property="og:image:width" content="600" />
+	<meta property="og:image:height" content="315" />
+	<meta property="og:image:type" content="image/jpeg" />
+
+<meta property="al:ios:url" content="lmfr://element/article/5365419?x4=8&amp;xto=AL-8-%5BAutres%5D">
+<meta property="al:ios:app_store_id" content="294047850">
+<meta property="al:ios:app_name" content="Le Monde, l'info en continu">
+<meta property="al:android:url" content="lmfr://element/article/5365419?x4=8&amp;xto=AL-8-%5BAutres%5D">
+<meta property="al:android:package" content="com.lemonde.androidapp">
+<meta property="al:android:app_name" content="Le Monde, l'info en continu">
+<meta property="al:web:url" content="https://www.lemonde.fr/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html">
+<meta property="al:web:should_fallback" content="true">
+<meta name="apple-itunes-app" content="app-id=294047850, affiliate-data=11lteT, app-argument=lmfr://element/article/5365419?x4=8&amp;xto=AL-8-%5BiOS_Banner%5D">
+<link rel="alternate" href="android-app://com.lemonde.androidapp/lmfr/element/article/5365419?x4=8" />
+<link rel="alternate" href="ios-app://294047850/lmfr/element/article/5365419?x4=8" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@lemondefr">
+<meta name="twitter:url" content="https://www.lemonde.fr/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html">
+<meta name="twitter:title" content="Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose">
+<meta name="twitter:description" content="Tuberculose, jusqu’à quand ? (7) Depuis 2010, le nombre de nouveaux cas pour les deux infections a chuté de près de la moitié grâce à une mobilisation sans précédent.">
+<meta name="twitter:image" content="https://img.lemde.fr/2018/10/05/255/0/3000/1498/600/315/60/0/33521fb_OW5OeWawy4wBsi9EXR59IU7q.jpg">
+
+
+
+
+    
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s1.lemde.fr/medias/web/1.2.708/ico/apple/icon-72.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://s1.lemde.fr/medias/web/1.2.708/ico/apple/icon-144.png">
+
+<link rel="shortcut icon" href="https://s1.lemde.fr/medias/web/1.2.708/ico/favicon.ico">
+
+<link rel="stylesheet" type="text/css" href="//s1.lemde.fr/bootstrap/afrique/6913d76312e944f6af4e3d548de3cc10.css?m[]=main%40screen&m[]=print%40print">
+
+        <link rel="canonical" href="https://www.lemonde.fr/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html">
+        <link rel="alternate" href="https://mobile.lemonde.fr/afrique/article/2018/10/05/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html" media="only screen and (max-width: 640px)">
+<link rel="alternate" href="https://www.lemonde.fr/afrique/rss_full.xml" title="Le Monde.fr : Afrique" type="application/rss+xml">
+
+<link rel="dns-prefetch" href="//logs13.xiti.com">
+
+
+    <script src="https://s1.lemde.fr/medias/web/1.2.708/js/lib/require/core/current/require.js"></script>
+<script src="//s1.lemde.fr/bootstrap/www/main.js"></script>
+
+<script>
+if(-1 === requirejs.s.contexts._.config.baseUrl.indexOf('https://s1.lemde.fr')) { require = function(){}; }
+</script>
+
+    <noscript>
+    <meta http-equiv="refresh" content="900"> <!--Keep this functionality up & running if no javascript-->
+</noscript>
+<script>
+    require(["lmd/ui/refresh"], function (refresh) {
+        refresh.init(900);
+    })
+</script>
+
+<script>
+"undefined"!==typeof lmd&&lmd||(lmd={});
+(function(e,d){var f=function(b,a){var c;if(void 0===a||null===a||""===a)return!0;for(c=0;c<b.requireModules.length;c++)if(b.requireModules[c].match(a))return!0;return!1},g=function(b,a){var c;for(c=0;c<d.requirejs.error_history.length;c++)f(d.requirejs.error_history[c],a)&&b.call(this,d.requirejs.error_history[c])},h=function(b){var a,c=d.requirejs.handlers;for(a=0;a<c.length;a++)f(b,c[a].regex)&&c[a].fn.call(this,b)};d.requirejs={handlers:[],error_history:[],addHandler:function(b,a,c){"undefined"!==
+typeof c&&c&&g(b,a);d.requirejs.handlers.push({fn:b,regex:a})}};requirejs.onError=function(b){var a=b.originalError&&b.originalError.target||{};h(b);d.requirejs.error_history.push(b);if("function"===typeof e.onerror)e.onerror("REQUIRE ERROR ("+b.requireType+") ["+a.src+"]",a.baseURI,"N/A");else throw b;}})(this,lmd);
+</script>
+<script>
+   (function (d) {
+      var script = d.createElement('script');
+      var trange = (new Date()).getTime().toString().slice(0, -5);
+      script.src = 'https://s1.lemde.fr/medias/web/1.2.708/js/lmd/module/meter/toggle-off.js?' + trange;
+      d.write(script.outerHTML);
+   })(document);
+
+   require(['lmd.meter'], function (loader) {
+      loader.launch();
+   });
+</script>
+
+
+
+<script>var _sf_startpt = (new Date()).getTime()</script>
+
+<script>
+require(["lib/require/plugin/domReady", "lmd/util/link"],function(a,b){a(function(){b.parse()})});
+</script>
+
+<script>if("undefined"===typeof lmd||!lmd)lmd={};lmd.pic=function(a){require(["lmd/module/retina"],function(b){b(a)})};lmpic=lmd.pic;</script><script>
+    if (typeof lmd === 'undefined' || !lmd) {
+        lmd = {};
+    }
+
+    lmd.onload = function(fn) {
+        if (document.readyState !== 'loading') {
+            fn();
+        } else if (document.addEventListener) {
+            document.addEventListener('DOMContentLoaded', fn);
+        } else {
+            document.attachEvent('onreadystatechange', function() {
+                if (document.readystate !== 'loading') {
+                    fn();
+                }
+            });
+        }
+    };
+
+    _lmOnload = lmd.onload;
+</script>
+
+<script>
+   require(['lmd/core/login-register']);
+</script>
+
+</head>
+
+
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.lemonde.fr\/afrique\/article\/2018\/10\/05\/comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose_5365419_3212.html"},"headline":"Comment l\u2019Eswatini a mis sous contr\u00f4le la double \u00e9pid\u00e9mie sida-tuberculose","dateCreated":"2018-10-05T18:30:27+0200","datePublished":"2018-10-05T18:30:33+0200","publisher":{"@type":"Organization","name":"Le Monde","logo":{"@type":"ImageObject","url":"https:\/\/s1.lemde.fr\/medias\/web\/1.2.708\/img\/elements_lm\/logo_lm_print.png","width":"240","height":"42"}},"dateModified":"2018-10-05T19:56:35+0200","description":"Tuberculose, jusqu\u2019\u00e0 quand\u00a0? (7) Depuis 2010, le nombre de nouveaux cas pour les deux infections a chut\u00e9 de pr\u00e8s de la moiti\u00e9 gr\u00e2ce \u00e0 une mobilisation sans pr\u00e9c\u00e9dent.","author":{"@type":"Person","name":"Adrien Barbier"},"image":{"@type":"ImageObject","url":"https:\/\/img.lemde.fr\/2018\/10\/05\/255\/0\/3000\/1498\/696\/348\/60\/0\/33521fb_OW5OeWawy4wBsi9EXR59IU7q.jpg","width":"696","height":"348"}}</script>
+    <body class="afrique Article">
+        <div id="dfp-cover" class="dfp_slot" data-format="cover" style="display:none;"></div>
+        <!-- Google Tag Manager No Script -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MS62MT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager No Script -->
+
+        
+
+        <div class="site-header">
+<div id="alerte_tracking" class="warning-headband" style="display:none">
+  <span class="close croix_grise" title="Fermer cet avertissement" data-action="hide" data-target="#alerte_tracking"></span>
+  En poursuivant votre navigation sur ce site, vous acceptez notre <a href="/confidentialite/">Politique de confidentialité</a> et l’utilisation de cookies pour vous proposer des contenus et services adaptés à vos centres d’intérêts.
+  <a href="/confidentialite/">En savoir plus et gérer ces paramètres</a>
+</div>
+
+<script>require(["lmd/module/user/alerte_tracking"]);</script>
+<div class="surheader">
+    <div class="content">
+        <div class="list-group">
+            <a href="/" target="">Le Monde</a>
+            <a href="http://www.telerama.fr/" target="_blank">T&eacute;l&eacute;rama</a>
+            <a href="http://www.monde-diplomatique.fr/" target="_blank">Le Monde diplomatique</a>
+            <a href="http://www.huffingtonpost.fr/" target="_blank">HuffPost</a>
+            <a href="http://www.courrierinternational.com/" target="_blank">Courrier international</a>
+            <a href="http://www.lavie.fr/" target="_blank">La Vie</a>
+            <a href="https://www.nouvelobs.com/" target="_blank">L'Obs</a>
+        </div>
+
+<a class="subscription" title="S’abonner dès 1 €" data-alt-title="S’abonner au Monde à partir de 1 €" href="https://abo.lemonde.fr#xtor=CS1-263[BOUTONS_LMFR]-[HEADER]-86-[Article]" onclick="return xt_click(this, 'C', '', 'Abo::Header', 'N')" rel="nofollow">
+                <span>S’abonner</span>
+            </a>
+        <ul class="services">
+            <li>
+                <a href="#">Services Le Monde ▾</a>
+                <div>
+                    <ul>
+                        <li><strong>Le Monde Événements</strong></li>
+                        <li><a href="https://evenements-abonnes.lemonde.fr/">Événements abonnés</a></li>
+                        <li><a href="/festival/">Le Monde Festival</a></li>
+                        <li><strong>Boutique Le Monde</strong></li>
+                        <li><a href="http://boutique.lemonde.fr/#xtor=AD-46" target="">Accueil</a></li>
+                        <li><a href="http://boutique.lemonde.fr/hors-series.html#xtor=AD-101" target="">Hors-S&eacute;ries</a></li>
+                        <li><a href="http://boutique.lemonde.fr/livres.html#xtor=AD-100" target="">Livres</a></li>
+                        <li><a href="http://boutique.lemonde.fr/dvd-1.html#xtor=AD-98" target="">DVD</a></li>
+                        <li><a href="http://boutique.lemonde.fr/cd.html#xtor=AD-99" target="">CD</a></li>
+                        <li><a href="http://boutique.lemonde.fr/unes-du-monde.html#xtor=AD-149" target="">Unes du Monde</a></li>
+                        <li><a href="http://boutique.lemonde.fr/loisirs-et-papeterie.html#xtor=AD-103" target="">Loisirs & papeterie</a></li>
+                        <li><a href="http://boutique.lemonde.fr/promos.html#xtor=AD-345" target="">Promotions</a></li>
+                    </ul>
+                    <ul>
+                        <li><strong>Partenaires Le Monde</strong></li>
+                        <li><a href="http://voiture-occasion.lemonde.fr" target="">Annonces auto</a></li>
+                        <li><a href="https://paroles2chansons.lemonde.fr/" target="">Paroles de chansons</a></li>
+                        <li><a href="http://offres.offres-emploi.monster.fr/?ch=LEMONDE" target="">Annonces emploi</a></li>
+                        <li><a href="http://immobilier.lemonde.fr/" target="">Annonces immo</a></li>
+                        <li><a href="https://codepromo.lemonde.fr/" target="">Codes promo</a></li>
+                        <li><a href="http://dicocitations.lemonde.fr/" target="">Citations</a></li>
+                        <li><a href="https://anglais.lemonde.fr/" target="">Cours d&rsquo;anglais</a></li>
+                        <li><a href="https://formation-professionnelle.lemonde.fr/" target="">Formation professionnelle</a></li>
+                        <li><a href="https://jardinage.lemonde.fr/" target="">Jardinage</a></li>
+                        <li><a href="https://progresser-orthographe.lemonde.fr/" target="">Orthographe</a></li>
+                        <li><a href="http://prix-immobilier.lemonde.fr/prix-immobilier/" target="">Prix de l&rsquo;immobilier</a></li>
+                        <li><a href="http://encheres.lemonde.fr" target="">Ventes aux ench&egrave;res</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <div class="partners">
+            <a class="partners__link" target="_blank" href="https://codepromo.lemonde.fr/" title="Codes promo" onclick="return xt_click(this, 'C', '', 'Cuponation_sur_header', 'N')">Codes promo</a>
+        </div>
+    </div>
+</div>
+
+<div class="header">
+    <div class="content">
+        <a class="site-brand" href="/">Le Monde.fr</a>
+
+        <div class="edition-button" data-toggle="popover" data-target="this">
+          <ul>
+            <li><span>Édition afrique</span></li>
+            <li><a href="/" onclick="return xt_click(this,'C',lmd.context.page.xiti.xtn2,'edition_globale','N')">Édition globale</a></li>
+          </ul>
+        </div>
+
+        <div class="user-panel" data-toggle="popover" data-target="this">
+            <div class="user-informations js-user-informations"></div>
+
+            <div class="user-links">
+                <p class="title">Utilisateur</p>
+                <div class="links connection-links">
+                    <a class=" register" id="btn_inscription" data-xtclick="tunnel_inscription_2014::lien_header::inscrivez_vous" href="https://secure.lemonde.fr/sfuser/register">Inscrivez-vous</a>
+                    <a role="button" class="connection" id="btn_identification" data-xtclick="tunnel_inscription_2014::lien_header::connexion" href="https://secure.lemonde.fr/sfuser/connexion">Connexion</a>
+                </div>
+                <div class="links registered-links">
+                    <ul>
+                      <li class="hidden"><a href="/votre_compte/">Votre compte</a></li>
+                      <li class="hidden"><a href="/votre_compte/">Aide</a></li>
+                      <li><a data-user-disconnect="true" role="button" href="https://secure.lemonde.fr/sfuser/deconnexion">Déconnexion</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="edito-panel">
+            <div class="social-network">
+                <a href="https://www.facebook.com/lemonde.fr" target="_blank" class="icon icon-facebook">Facebook</a>
+                <a href="https://twitter.com/lemondefr" target="_blank" class="icon icon-twitter">Twitter</a>
+                <a href="https://plus.google.com/+LeMondefr/posts" target="_blank" title="Suivez LeMonde.fr sur Google+" class="icon icon-googleplus">Google+</a>
+                <a href="https://instagram.com/lemondefr" target="_blank" title="Suivez LeMonde.fr sur Instagram" class="icon icon-instagram">Instagram</a>
+            </div>
+            <a href="/recherche/" class="recherche" onclick="return xt_click(this, 'N', lmd.context.page.xiti.xtn2, 'Lien_recherche_header' ,'N');">Rechercher</a>
+            <a href="/emploi/" class="jobs" onclick="return xt_click(this, 'N', lmd.context.page.xiti.xtn2, 'Lien_emploi_header' ,'N');">Emploi</a>
+            <a class="newsletter" data-xtclick="tunnel_inscription_2014::lien_header::recevez_nos_newsletters" href="https://secure.lemonde.fr/sfuser/newsletters">Newsletters</a>
+        </div>
+
+    </div>
+
+    <div class="fixed-header">
+    <div class="fixed-header-content">
+        <a class="fixed-header-logo" href="/"></a>
+        <div class="fixed-header-title">Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose</div>
+        <div class="fixed-header-sharing-buttons">
+            <div data-sharewith="facebook" data-xiti-label="Partage::Facebook::Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose::header">Partager<span class="fixed-header-facebook-likes-counter"></span></div>
+            <div data-sharewith="twitter" data-xiti-label="Partage::Twitter::Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose::header">Tweeter</div>
+            <div data-sharewith="google-plus" data-xiti-label="Partage::Google+::Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose::header"></div>
+            <div data-sharewith="linkedin" data-xiti-label="Partage::Linkedin::Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose::header"></div>
+            <div data-sharewith="pinterest" data-xiti-label="Partage::Pinterest::Comment l’Eswatini a mis sous contrôle la double épidémie sida-tuberculose::header"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    require(['lmd/module/fixed-header'], function (fixedHeader) {
+            'use strict';
+            fixedHeader.init();
+        }
+    );
+</script>
+</div>
+
+</div>
+
+<script>
+require(["lmd/core/auth", "lmd.afrique.header"], function(a,b){a.loadUser().done(function(){b.init();})});
+require(["lmd/module/acces-non-abonne"],function(a){a.init();});
+</script>
+
+
+        
+        <div id="nav"></div>
+        <div id="habillagepub">
+               <div id="dfp-habillage" class="dfp_slot" data-format='habillage'></div>
+       <div id="dfp-banniere_haute" class="dfp_slot top banniere" data-format="banniere_haute"></div>
+            
+            <div class="page-header" data-sticky="true">
+                <div class="page-brand">
+                    <a href="/afrique/" class="logo">Le Monde Afrique</a>
+                </div>
+                <div class="sub-navigation-anchor" data-toggle="collapse" data-target="html" data-toggle-class="menu-opened">
+                Pays
+                                    </div>
+<div class="sub-navigation">
+    <ul>
+        <li><a href="/afrique/">La Une</a></li>
+        <li class="active"><a href="/afrique-actualites/">Pays</a></li>
+        <li><a href="/afrique-politique/">Politique</a></li>
+        <li><a href="/afrique-economie/">&Eacute;conomie</a></li>
+        <li><a href="/afrique-sport/">Sport</a></li>
+        <li><a href="/afrique-culture-style/">Culture & Style</a></li>
+        <li><a href="/afrique-monde/">Monde</a></li>
+        <li><a href="/afrique-debats/">D&eacute;bats</a></li>
+        <li><a href="/afrique-afric-lab/">Afric-Lab</a></li>
+        <li><a href="/afrique/videos/">Vid&eacute;os</a></li>
+        <li><a href="/afrique-evenements/">&Eacute;v&eacute;nements</a></li>
+    </ul>
+</div>
+
+            </div>
+
+            <div class="page-container">
+    <div class="top_container_article"></div>
+    <div class="page-content page-article">
+        <article class="article">
+
+            <p class="content-labels">Compte rendu</p>
+
+            <h1 class="content-headline" itemprop="Headline">Comment l&rsquo;Eswatini a mis sous contr&ocirc;le la double &eacute;pid&eacute;mie sida-tuberculose</h1>
+
+            <p class="txt3 description-article" itemprop="description">Tuberculose, jusqu&rsquo;&agrave; quand&nbsp;? (7) Depuis 2010, le nombre de nouveaux cas pour les deux infections a chut&eacute; de pr&egrave;s de la moiti&eacute; gr&acirc;ce &agrave; une mobilisation sans pr&eacute;c&eacute;dent.</p>
+            <p class="content-byline" data-link-name="byline" data-component="meta-byline">
+Par                                            Adrien Barbier (Mbabane, Eswatini, envoy&eacute; sp&eacute;cial)
+
+            </span>
+
+            <p class="content-metaline">
+    <span class="content-source" itemprop="Publisher" data-source="LE MONDE">LE MONDE</span>
+    <time itemprop="datePublished"
+          datetime="2018-10-05T18:30:33+02:00"
+          data-timestamp="1538762195">
+        Le 05.10.2018 &agrave; 18h30
+    </time>
+     •
+    <time class="content-modification-date"
+          itemprop="dateModified"
+          datetime="2018-10-05T19:56:35+02:00"
+          data-timestamp="">
+        Mis à jour le 05.10.2018 &agrave; 19h56
+    </time>
+</p>
+            <div class="toolbar"></div>
+
+            <div class="content-article-body contenu_article" itemprop="articleBody">
+                                    <figure class="illustration_haut" data-toggle="popover" data-target="this">
+<img width="768" data-lazyload="false" src="https://img.lemde.fr/2018/10/05/0/0/3000/2004/768/0/60/0/33521fb_OW5OeWawy4wBsi9EXR59IU7q.jpg" alt="Une employée de la clinique Baylor de Mbabane aide des enfants à cracher pour un dépistage de la tuberculose, à une dizaine de kilomètres de la capitale de l’Eswatini (ex-Swaziland)." title="Shehzad Noorani" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina">    <figcaption class="legende">
+        <span>Une employ&eacute;e de la clinique Baylor de Mbabane&nbsp;aide des enfants &agrave; cracher pour un d&eacute;pistage de la tuberculose, &agrave; une dizaine de kilom&egrave;tres de la capitale de&nbsp;l&rsquo;Eswatini (ex-Swaziland).</span>
+        <span class="credits">Crédits : Shehzad Noorani</span>
+    </figcaption>
+</figure>
+<h2 class="taille_courante">Pour <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/collecter/' title='Conjugaison du verbe collecter'>collecter</a> le crachat d’un enfant, Godwin Mtetwa ne manque pas de ressources. <em>« On peut <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/utiliser/' title='Conjugaison du verbe utiliser'>utiliser</a> un bronchodilatateur pour lui <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/d%C3%A9clencher/' title='Conjugaison du verbe déclencher'>déclencher</a> une toux. Ou lui <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/faire/' title='Conjugaison du verbe faire'>faire</a> un prélèvement gastrique en insérant un tube par le nez. On a toutes les tailles de tubes ! » </em>Cet infirmier costaud mène la visite du centre pédiatrique d’excellence pour la tuberculose de Mbabane. Salle d’attente aérée et colorée, radio des poumons et test GeneXpert pour le diagnostic : l’établissement, qui dispose d’équipements dernier cri, est une référence pour le traitement de la tuberculose chez l’enfant en Eswatini (ex-Swaziland), si ce n’est dans toute l’Afrique australe. Une vision qui tranche avec l’état général des hôpitaux du royaume, où il n’existe qu’une unité de soins intensifs.</h2>
+<p class="lire">
+        Présentation de notre série
+        &nbsp;
+    <a href="/afrique/article/2018/09/26/suivez-notre-serie-tuberculose-jusqu-a-quand_5360584_3212.html">
+          Tuberculose, jusqu’à quand ?
+          </a>
+</p>
+
+<p>Installée sur les collines verdoyantes de la capitale, cette clinique est le fruit d’un partenariat public-privé entre l’université texane Baylor et le gouvernement swati. Parce qu’il est particulièrement difficile d’obtenir un crachat chez les enfants de moins de 5 ans, beaucoup passent sous les radars du dépistage d’une maladie qui, dans le monde, tue plus que le sida.</p>
+<p class="lire">
+        Lire aussi :
+        &nbsp;
+    <a href="/afrique/article/2018/09/27/au-kenya-une-revolution-au-gout-de-fraise-dans-la-lutte-contre-la-tuberculose-infantile_5361179_3212.html">
+                Au Kenya, une révolution au goût de fraise dans la lutte contre la tuberculose infantile
+    </a>
+</p>
+
+<p><em>« On est les premiers dans le pays à <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/auxiliaire/avoir/' title='Conjugaison du verbe avoir'>avoir</a> su comment <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/provoquer/' title='Conjugaison du verbe provoquer'>provoquer</a> le crachat. Depuis qu’on maîtrise les techniques, on va dans les hôpitaux et les centres de santé de tout le territoire pour <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/former/' title='Conjugaison du verbe former'>former</a> le personnel soignant », </em>explique Godwin. Enthousiaste, il mesure les progrès réalisés ces dernières années pour <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/enrayer/' title='Conjugaison du verbe enrayer'>enrayer</a> l’épidémie de tuberculose, dont l’Eswatini avait il y a peu le nombre de cas par habitant le plus élevé au monde.</p>
+<div id="dfp-inread-1" class="dfp_slot" data-format="inread"></div><h2 class="intertitre">« Une maladie familiale »</h2>
+<p>Petit pays coincé entre le Mozambique et l’Afrique du Sud, l’ex-Swaziland est connu pour son roi excentrique, Mswati III, dernier monarque absolu d’Afrique, et pour son taux de prévalence du sida, le plus élevé de la planète. Comme ailleurs en Afrique australe, l’épidémie de VIH a été le principal moteur de celle de tuberculose, première cause de mortalité chez les séropositifs.</p>
+<p class="lire js_marqueur_restreint_atome marqueur_restreint">
+        Lire aussi :
+        &nbsp;
+    <a href="/m-actu/article/2018/09/28/mswati-iii-monarque-absolu-et-escroc-bien-aime_5361571_4497186.html">
+                Mswati III, monarque absolu et « escroc » bien aimé
+    </a>
+</p>
+
+<p>Contrairement aux pays voisins, où les foyers infectieux se trouvent dans des bidonvilles insalubres et surpeuplés, en Eswatini, la grande majorité de la population vit en zone rurale. <em>« Ici, la tuberculose est avant tout une maladie familiale : une famille de cinq ou six personnes peut s’entasser dans une petite maison d’une seule pièce »</em>, précise le soignant.</p>
+<p>En une dizaine d’années, le royaume est parvenu à <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/inverser/' title='Conjugaison du verbe inverser'>inverser</a> la tendance. La courbe du nombre annuel de nouveaux cas de tuberculose parle d’elle-même : après avoir atteint un pic en 2009-2010 avec 11 000 cas notifiés, elle tombe à 3 800 en 2016. Dans le même temps, l’épidémie de sida a également été contenue. Depuis 2010, le nombre de nouvelles infections a baissé de moitié, et la mortalité de 28 %. Le taux de patients atteints de la tuberculose et coinfectés par le VIH est, lui, passé de 80 % à 70 %.</p>
+<figure class="illustration_haut" data-toggle="popover" data-target="this">
+<img width="768" data-lazyload="false" src="https://img.lemde.fr/2018/10/04/0/0/1720/810/768/0/60/0/e7333ce_JBDab1gChtK-XaLIeF04sZTX.jpeg" alt="Courbe du nombre annuel de nouveaux cas de tuberculose enregistrés au Eswatini." title="Source : programme national de contrôle de la tuberculose" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina">    <figcaption class="legende">
+        <span>Courbe du nombre annuel de nouveaux cas de tuberculose enregistr&eacute;s au&nbsp;Eswatini.</span>
+        <span class="credits">Crédits : Source : programme national de contr&ocirc;le de la tuberculose</span>
+    </figcaption>
+</figure>
+<p>Résultat, l’Eswatini est sorti de la liste, dressée par l’Organisation mondiale de la santé (OMS), des 22 pays les plus touchés par la maladie infectieuse. <em>« Ce qui a fait la différence, c’est qu’on a d’abord compris l’ampleur du problème avant de <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/prendre/' title='Conjugaison du verbe prendre'>prendre</a> un engagement politique fort. Même le roi en a parlé »,</em> explique Debrah Vambe, du programme national de contrôle de la tuberculose, rattaché au ministère swati de la santé. En 2011, le gouvernement a déclaré l’état d’urgence. <em>« On a été capable de faire un état des lieux précis, de <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/noter/' title='Conjugaison du verbe noter'>noter</a> sur une feuille tout ce qui n’allait pas et d’en faire une présentation. C’est comme ça qu’on a convaincu les bailleurs de fonds comme le Fonds mondial »</em>, détaille la docteure, qui porte un tee-shirt « Stop TB ».</p>
+<p>Bernhard Kerschberger, de Médecins sans frontières (MSF), acquiesce. <em>« Nous avons vraiment d’excellentes relations avec le ministère de la santé », </em>explique le chef de mission, dans les bureaux de l’organisation à Mbabane. A l’étranger, le roi Mswati III est critiqué pour son train de vie dispendieux, alors que deux tiers de la population vivent sous le seuil de pauvreté. Son régime est montré du doigt : les partis politiques ne sont pas autorisés à <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/participer/' title='Conjugaison du verbe participer'>participer</a> aux élections, les opposants sont régulièrement persécutés, et la presse est mise au pas. Il n’empêche, le roi reste très apprécié par la population, fière de ses traditions et de ses spécificités.</p>
+<h2 class="intertitre">Soignants à moto</h2>
+<p><em>« Les ONG aiment <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/travailler/' title='Conjugaison du verbe travailler'>travailler</a> ici car il est plus facile d’y <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/obtenir/' title='Conjugaison du verbe obtenir'>obtenir</a> des résultats. Dans un pays plus grand, on n’aurait pas les mêmes succès », </em>décrypte le médecin. Le royaume, qui compte 1,2 million d’habitants, est grand comme la moitié de la Belgique. Preuve que la situation n’est plus aussi critique, MSF est en train de <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/r%C3%A9duire/' title='Conjugaison du verbe réduire'>réduire</a> ses effectifs en Eswatini.</p>
+<p class="lire">
+        Lire aussi :
+        &nbsp;
+    <a href="/afrique/article/2018/10/02/a-johannesburg-le-township-de-tembisa-a-la-pointe-de-la-recherche-sur-la-tuberculose_5363552_3212.html">
+                A Johannesburg, le township de Tembisa à la pointe de la recherche sur la tuberculose
+    </a>
+</p>
+
+<p>Sollicitée à l’origine en 2007, l’organisation s’est installée dans le sud pauvre du pays. Elle y a mis en place un programme de décentralisation et d’intégration des soins qui s’est montré particulièrement efficace. Les protocoles ont été adaptés pour que la prise d’antirétroviraux s’accompagne d’un traitement préventif de la tuberculose. Aujourd’hui, chaque centre de santé primaire offre une prise en charge combinée pour les deux infections.</p>
+<p>L’approche communautaire est l’autre ingrédient qui a fait la différence, malgré un système de santé peu développé. Les soignants ont été équipés de motos pour <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/pouvoir/' title='Conjugaison du verbe pouvoir'>pouvoir</a> se <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/rendre/' title='Conjugaison du verbe rendre'>rendre</a> directement chez les patients. Et pour les malades atteints de tuberculose multirésistante, un accompagnement personnalisé a été instauré. <em>« Lorsque le patient est diagnostiqué, on lui demande de <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/trouver/' title='Conjugaison du verbe trouver'>trouver</a> un partenaire pour l’accompagner tout au long du traitement. Ce dernier doit <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/surveiller/' title='Conjugaison du verbe surveiller'>surveiller</a> qu’il prenne bien son traitement, deux fois par jour, et il est dédommagé pour cela », </em>explique Debrah Vambe.</p>
+<p class="lire">
+        Lire aussi :
+        &nbsp;
+    <a href="/afrique/article/2018/10/03/l-afrique-du-sud-a-l-avant-garde-de-la-lutte-contre-la-tuberculose-multiresistante_5364179_3212.html">
+                L’Afrique du Sud à l’avant-garde de la lutte contre la tuberculose multirésistante
+    </a>
+</p>
+
+<p>Cette dynamique positive pourrait en revanche <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/auxiliaire/%C3%AAtre/' title='Conjugaison du verbe être'>être</a> enrayée par les difficultés budgétaires que connaît le gouvernement depuis plusieurs mois. En août, les infirmières du système public de santé sont descendues dans la rue pour <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/protester/' title='Conjugaison du verbe protester'>protester</a> contre leurs conditions de travail et les ruptures de stock de médicaments. L’économie de l’Eswatini, complètement imbriquée dans celle de son voisin sud-africain, subit les soubresauts de la crise des matières premières et d’une sécheresse historique qui touchent ce dernier.</p>
+<aside class="fenetre">
+    <span class="titre">Sommaire de notre série Tuberculose, jusqu’à quand ?</span>
+    <p><em>Le Monde Afrique</em> propose des reportages, portraits et entretiens sur le continent pour raconter le fléau qui tue plus que le sida.</p>
+<p><strong>Episode 6</strong> <a href="http://lemonde.fr/afrique/article/2018/10/03/l-afrique-du-sud-a-l-avant-garde-de-la-lutte-contre-la-tuberculose-multiresistante_5364179_3212.html">L’Afrique du Sud à l’avant-garde de la lutte contre la tuberculose multirésistante</a></p>
+<p><strong>Episode 5</strong> <a href="/afrique/article/2018/10/02/a-johannesburg-le-township-de-tembisa-a-la-pointe-de-la-recherche-sur-la-tuberculose_5363552_3212.html">A Johannesburg, le township de Tembisa à la pointe de la recherche sur la tuberculose</a></p>
+<p><strong>Episode 4</strong> <a href="http://lemonde.fr/afrique/article/2018/10/01/en-afrique-avoir-la-tuberculose-est-aujourd-hui-plus-stigmatisant-qu-avoir-le-vih_5362983_3212.html">« En Afrique, avoir la tuberculose est aujourd’hui plus stigmatisant qu’avoir le VIH »</a></p>
+<p><strong>Episode 3</strong> <a href="http://lemonde.fr/afrique/article/2018/09/30/une-armee-de-volontaires-en-ethiopie-pour-vaincre-la-tuberculose_5362425_3212.html">Une armée de volontaires en Ethiopie pour vaincre la tuberculose</a></p>
+<p><strong>Episode 2</strong> <a href="http://lemonde.fr/afrique/article/2018/09/28/tuberculose-a-la-poursuite-des-cas-manquants-dans-les-villages-senegalais_5361856_3212.html">A la poursuite des cas manquants de tuberculose dans les villages sénégalais</a></p>
+<p><strong>Episode 1</strong> <a href="http://lemonde.fr/afrique/article/2018/09/27/au-kenya-une-revolution-au-gout-de-fraise-dans-la-lutte-contre-la-tuberculose-infantile_5361179_3212.html">Au Kenya, une révolution au goût de fraise dans la lutte contre la tuberculose infantile</a></p>
+<p><strong>Présentation de notre série</strong> <a href="http://lemonde.fr/afrique/article/2018/09/26/suivez-notre-serie-tuberculose-jusqu-a-quand_5360584_3212.html">Tuberculose, jusqu’à quand ?</a></p>
+</aside>
+
+<p>Pour l’instant, ni Baylor ni MSF n’ont été affectés par une pénurie de médicaments. Mais dans le système public les antituberculeux viennent déjà à <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/premier-groupe/manquer/' title='Conjugaison du verbe manquer'>manquer</a>, car les fournisseurs n’ont pas été payés depuis 2017. <em>« Vaincre une épidémie, </em>conclut Bernhard Kerschberger, <em>c’est comme <a target='_blank' onclick='return false;' class='lien_interne conjug' href='https://conjugaison.lemonde.fr/conjugaison/troisieme-groupe/courir/' title='Conjugaison du verbe courir'>courir</a> un marathon : il ne faudrait pas s’arrêter au milieu ! »</em></p>
+<p class="reference"><span><em>Cet article fait partie d’une série réalisée dans le cadre d’un partenariat avec Unitaid.</em></span></p>
+            </div>
+        </article>
+
+
+
+            <div class="toolbar"></div>
+
+         <div id="ligatus-endarticle-1"></div>
+         <div id="ligatus-mobile-endarticle"></div>
+         <div id="data-related-content-top" data-related-content-position="top"></div>
+         <div id="ligatus-endarticle-2"></div>
+         <div id="data-related-content-middle" data-related-content-position="middle"></div>
+         <div id="ligatus-endarticle-3"></div>
+         <div id="data-related-content-bottom" data-related-content-position="bottom"></div>
+
+         <div class="related-articles" id="related-articles">
+    <span class="title">Dans la même rubrique</span>
+    <a href="/afrique/article/2018/09/06/l-eswatini-un-demi-siecle-et-rien-a-feter-sauf-pour-son-roi_5351347_3212.html" class="link" onclick="return xt_click(this,'C','','Liens_bloc_meme_sujet::Gratuit::Gratuit','N')">
+        L&rsquo;Eswatini, un demi-si&egrave;cle et rien &agrave; f&ecirc;ter, sauf pour son roi
+    </a>
+    <a href="/afrique/video/2015/10/02/swaziland-pashu-la-princesse-qui-rappe_4781265_3212.html" class="link" onclick="return xt_click(this,'C','','Liens_bloc_meme_sujet::Gratuit::Gratuit','N')">
+        Swaziland&nbsp;: Pashu, la princesse qui rappe<span class="editorial-type"><span class="ico_video_mini"></span>Vidéo</span>
+    </a>
+    <a href="/afrique/video/2015/09/14/swaziland-des-femmes-vierges-participent-a-la-danse-des-roseaux_4756578_3212.html" class="link" onclick="return xt_click(this,'C','','Liens_bloc_meme_sujet::Gratuit::Gratuit','N')">
+        Swaziland : des femmes vierges participent &agrave; la Danse des roseaux<span class="editorial-type"><span class="ico_video_mini"></span>Vidéo</span>
+    </a>
+        <a href="/m-actu/article/2018/09/28/mswati-iii-monarque-absolu-et-escroc-bien-aime_5361571_4497186.html" class="link subscribers" onclick="return xt_click(this,'C','','Liens_bloc_meme_sujet::Abonn&eacute;s::Gratuit','N')">
+        Mswati III, monarque absolu et &laquo;&nbsp;escroc&nbsp;&raquo; bien aim&eacute;
+    </a>
+    <a href="/afrique/article/2005/08/23/les-vierges-du-swaziland-ont-jete-leurs-pompons-au-feu_681966_3212.html" class="link subscribers" onclick="return xt_click(this,'C','','Liens_bloc_meme_sujet::Abonn&eacute;s::Gratuit','N')">
+        Les vierges du Swaziland ont jet&eacute; leurs pompons au feu
+    </a>
+    <a href="/vous/article/2009/07/27/swaziland-ubu-royaume_1223135_3238.html" class="link subscribers" onclick="return xt_click(this,'C','','Liens_bloc_meme_sujet::Abonn&eacute;s::Gratuit','N')">
+        Swaziland : Ubu royaume
+    </a>
+
+    <span data-href="L2Fiby8/YW1wO2NsZWY9QkxPQ0FCT0FSVEJBUzE0" class="btn_abo obf" onclick="return xt_click(this, 'C', lmd.context.page.xiti.xtn2, 'Clic_Abonnement','N');" title="Abonnez-vous au Monde à partir de 1 €">
+        Abonnez-vous à partir de 1 €
+    </span></div>
+        <div class="js-comments" id="liste_reactions">
+    <div class="block-comments">
+
+  <p class="title">
+    Vos réactions <span>(0)</span>
+  </p>
+
+  <div class="content">
+  </div>
+
+  </div>
+</div>
+
+<script>
+require(["lmd.afrique.comments"], function(comments) {
+    comments.init(".js-comments");
+});
+</script>
+
+        
+
+    </div>
+
+    <div class="page-sidebar">
+        <div id="dfp-pave_haut" class="dfp_slot" data-format='pave_haut'></div>
+<div class="bloc_inscription_newsletter">
+    <div class="conteneur_argumentaire">
+        <h2 class="entete">DÉCOUVREZ LA NEWSLETTER <span class="logo">Le Monde Afrique</span></h2>
+        <p class="argumentaire"><strong>CHAQUE SAMEDI, </strong>retrouvez l'essentiel de l'actualité africaine en vous inscrivant à notre newsletter.</p>
+    </div>
+    <div class="conteneur_form">
+        <form class="js_inscription_nl_afrique">
+            <div class="form js_fields">
+                <p>
+                    <span>
+                        <input type="email" name="email" class="saisie" placeholder="Adresse email" required="required">
+                        <label class="choix-secondaire"><input type="checkbox" name="infos_monde" id="infos_monde">Recevoir les informations du Monde</label>
+                    </span>
+                    <span><input type="submit" class="btn_fonce" value="Je m'inscris"></span>
+                </p>
+            </div>
+            <p class="result"></p>
+        </form>
+        <span class="cnil">Votre adresse email nous sert à vous adresser les newsletters qui vous intéressent. Vous disposez d'un droit d'accès, de rectification et d'opposition aux données vous concernant en vous connectant à votre compte.</span>
+    </div>
+</div>
+
+<script>
+require(['lmd/ui/newsletter-subscription'], function (newsletterSubscription) {
+    newsletterSubscription.init('.js_inscription_nl_afrique', {
+        operationId: 428,
+        newsletterIds: [55]
+    });
+});
+</script>
+<div id="aj-f68241" data-aj-uri="/ajah/5m/lemonde/web/Controller_Module_Afrique_Ajah/actionLastNews/W10/-/EMPTY/EMPTY/?key=8f9e0c2e8878a63925d1829110434e6f0a5c3fe7"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-f68241").ajah({ url: "/ajah/5m/lemonde/web/Controller_Module_Afrique_Ajah/actionLastNews/W10/-/EMPTY/EMPTY/?key=8f9e0c2e8878a63925d1829110434e6f0a5c3fe7" })});</script><div id="aj-d53e82" data-aj-uri="/ajah/5m/lemonde/web/Controller_Module_Afrique_Ajah/actionMostShared/W10/-/EMPTY/EMPTY/?key=a01c6eaf1d2458bac2a9b11b92fbd2df40aeb347"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-d53e82").ajah({ url: "/ajah/5m/lemonde/web/Controller_Module_Afrique_Ajah/actionMostShared/W10/-/EMPTY/EMPTY/?key=a01c6eaf1d2458bac2a9b11b92fbd2df40aeb347" })});</script>    <div id="dfp-pave_milieu" class="dfp_slot" data-format='pave_milieu'></div>
+<div class="block-partners">
+    <span class="title">Les partenaires du Monde Afrique</span>
+    <ul class="content">
+        <li>
+            <a href="/partenaire-afd/">
+                <img data-src="https://s1.lemde.fr/medias/afrique/1.2.708/img/logos/afd.jpg" width="57" height="57" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" />
+                <span>Agence Française de développement</span>
+            </a>
+        </li>
+        <li>
+            <a href="/partenaire-fondation-gates/">
+                <img src="https://s1.lemde.fr/medias/afrique/1.2.708/img/logos/gates.jpg" width="57" height="57" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" />
+                <span>Fondation Bill et Melinda Gates</span>
+            </a>
+        </li>
+        <li>
+            <a href="/partenaire-osiwa/">
+                <img src="https://s1.lemde.fr/medias/afrique/1.2.708/img/logos/osiwa.jpg" width="57" height="57" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" />
+                <span>Open Society Initiative for West Africa</span>
+            </a>
+        </li>
+        <li>
+            <a href="/partenaire-ffmuskoka/">
+                <img src="https://s1.lemde.fr/medias/afrique/1.2.708/img/logos/muskoka-square.jpg" width="57" height="57" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" />
+                <span>Fonds Français Muskoka</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="aj-ea5f4a" data-aj-uri="/ajah/5m/lemonde/www/Controller_Module_Abonnes_AppelJelec/actionAfriqueSidebar/WzM/yMT/Jd/EMPTY/?key=e51744425c6c5e9ab1c6651ac344451e16e8b15a"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-ea5f4a").ajah({ url: "/ajah/5m/lemonde/www/Controller_Module_Abonnes_AppelJelec/actionAfriqueSidebar/WzM/yMT/Jd/EMPTY/?key=e51744425c6c5e9ab1c6651ac344451e16e8b15a" })});</script><aside class="block-bizdev">
+   <div id="aj-1020a0" data-aj-uri="/ajah/5m/lemonde/www/Controller_Module_Widget_Bizdev/actionAfficher/WzM/yMT/IsI/npvbmVfY29sb25uZV9iaXpkZXZfZWx0MSIsMSxmYWxzZSwzMjEyXQ--/?key=97e22dfadf450f5efa781c35e67ce98fc36c49dd"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-1020a0").ajah({ url: "/ajah/5m/lemonde/www/Controller_Module_Widget_Bizdev/actionAfficher/WzM/yMT/IsI/npvbmVfY29sb25uZV9iaXpkZXZfZWx0MSIsMSxmYWxzZSwzMjEyXQ--/?key=97e22dfadf450f5efa781c35e67ce98fc36c49dd" })});</script>
+</aside>
+    <div id="dfp-pave_bas" class="dfp_slot" data-format='pave_bas'></div>
+<aside class="block-bizdev">
+   <div id="aj-6513dc" data-aj-uri="/ajah/5m/lemonde/www/Controller_Module_Widget_Bizdev/actionAfficher/WzM/yMT/IsI/npvbmVfY29sb25uZV9iaXpkZXZfZWx0MiIsMSxmYWxzZSwzMjEyXQ--/?key=2115dfafdfed264e9a72aaf8062a9a8f0b7c68d2"></div><script>require(["jquery", "lib/jquery/plugin/jquery.ajah"],function($){$("#aj-6513dc").ajah({ url: "/ajah/5m/lemonde/www/Controller_Module_Widget_Bizdev/actionAfficher/WzM/yMT/IsI/npvbmVfY29sb25uZV9iaXpkZXZfZWx0MiIsMSxmYWxzZSwzMjEyXQ--/?key=2115dfafdfed264e9a72aaf8062a9a8f0b7c68d2" })});</script>
+</aside>
+
+        <div id="ligatus-aside"></div>
+    </div>
+
+    <div id="ligatus-slideup"></div>
+</div>
+
+<script>
+    require(['lmd/module/element/toolbar', 'lmd/core/context', "hoganpower!/afrique/partials/element/toolbar/login.html.mu@www"], function(toolbar, context, loginTemplate) {
+        toolbar.init({
+            context: context,
+            aboLabel: "S'abonner<span class=\"toolbar-label\"> dès 1 €</span>",
+            imprimer: {active: true},
+            loginPartial: loginTemplate.render(),
+            envoyer: {link: "/envoyer-par-email/article/2018/10/05/5365419.html"}
+        });
+    });
+</script>
+
+<script>
+   require(['afrique/lgt'], function(ligatus) {
+       ligatus.load();
+       window.onresize = ligatus.onResize;
+   });
+</script>
+
+
+
+            <div class="footer-africa">
+    <div class="newsletter-africa">
+        <span class="title plain-share">
+            <b>Suivez</b> <i class="site-brand">Le Monde Afrique</i>
+            <a href="https://www.facebook.com/pages/Le-Monde-Afrique/571833539615193" target="_blank" class="icon icon-facebook">Suivez-nous sur Facebook</a>
+            <a href="https://twitter.com/LeMonde_Afrique" target="_blank" class="icon icon-twitter">Suivez-nous sur Twitter</a>
+        </span>
+        <form name="subscribe-newsletter" method="post" class="newsletter js_inscription_nl_afrique">
+            <label for="email">Inscrivez-vous à notre newsletter et recevez chaque semaine le meilleur de l'actualité africaine.</label>
+            <p>
+                <input type="text" name="email" id="email" placeholder="adresse e-mail">
+                <button>OK</button>
+            </p>
+        </form>
+        <span class="cnil">Votre adresse email nous sert à vous adresser les newsletters qui vous intéressent. Vous disposez d'un droit d'accès, de rectification et d'opposition aux données vous concernant en vous connectant à votre compte.</span>
+    </div>
+    <ul class="links">
+        <li>
+            <a href="/afrique/article/2015/01/06/qu-est-ce-que-le-monde-afrique_4549832_3212.html">Qu’est-ce que Le Monde Afrique ?</a>
+        </li>
+        <li class="blog">
+            <a href="/afrique-evenements/">Les débats du Monde Afrique</a>
+        </li>
+    </ul>
+</div>
+
+
+                <div id="dfp-banniere_basse" class="dfp_slot" data-format='banniere_basse'></div>
+
+
+            <div class="footer-services" data-ui="carousel" data-wrapper=".js-carousel-wrapper" data-interval="5000">
+  <div class="wrapper js-carousel-wrapper">
+    <section class="slide active">
+<div class="item"><div class=""><a href=" http://www.lemonde.fr/jeu/sourdsdoues" class="block" onclick="return xt_click(this,'C','35','jeu_les_sourds_doues','N')"><img src="https://s1.lemde.fr/mmpub/img/widget/5bae4be9215d13.21873825/7b9a934b01bd990e613e8c3debb7994d.jpg"/></a></div></div><div class="item"><div class=""><a href="https://www.lemonde.fr/jeu/defissciences" class="block" onclick="return xt_click(this,'C','35','jeu_concours_defissciences','N')"><img src="https://s1.lemde.fr/mmpub/img/widget/5b855793148fb3.31198975/726a2c09b9c9b6fce1540bc7a085d28c.jpg"/></a></div></div><div class="item"><div class=""><a href="http://www.lemonde.fr/jeu/amin" class="block" onclick="return xt_click(this,'C','35','amin_philippe_faucon','N')"><img src="https://s1.lemde.fr/mmpub/img/widget/5bae561bd196c2.41331207/f6eddfc6a7009fc91cb2a7611f6d8820.jpg"/></a></div></div>    </section>
+    <section class="slide">
+<div class="item"><div class=""><a href="https://evenements-abonnes.lemonde.fr/" class="block" onclick="return xt_click(this,'C','35','','N')"><img src="https://s1.lemde.fr/mmpub/img/widget/5ad0868a98d3b1.66816804/9614810b69df90e3b46fd8031d674c60.jpg"/></a></div></div><div class="item"><div class=""><a href="https://www.lemonde.fr/festival/" class="block" onclick="return xt_click(this,'C','35','le_monde_festival','N')"><img src="https://s1.lemde.fr/mmpub/img/widget/5baca147a3ecf2.48355680/1adb1b484b94fd0ddfaf1ddb02c3b7e7.jpg"/></a></div></div><div class="item"><div class="block_elementum programme_tv">
+   <p class="entete">
+<span data-href="aHR0cDovL3RlbGV2aXNpb24udGVsZXJhbWEuZnIvdGVsZS9ncmlsbGUucGhw" data-target="_blank" class="obf">
+         <span class="intitule">Programme télé</span>
+      </span>       <span data-href="aHR0cDovL3d3dy50ZWxlcmFtYS5mcg==" class="logo_header obf" data-target="_blank">avec Télérama.fr</span>   </p>
+   <ul class="chaines liste_bordure">
+                                       </ul>
+</div>
+</div>    </section>
+    <section class="slide">
+<div class="item"><div class="entete">
+   <a href="http://jeux.lemonde.fr/games/sudoku/">Sudoku</a>
+   <span class="lien">&rsaquo; <a href="/jeux/">Voir tous les jeux</a></span>
+</div>
+<div class="img_bloc">
+   <a href="http://jeux.lemonde.fr/games/sudoku/">
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Jouez sur lemonde.fr" width="312" height="151" data-src="https://s1.lemde.fr/medias/web/1.2.708/img/friends/jeux/sudoku_footer_arkadium_312x151.jpg" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina">      <span class="btn_fonce" href="http://jeux.lemonde.fr/games/sudoku/">Jouez</span>
+   </a>
+</div>
+</div><div class="item"><span class="entete"><span data-href="L3ByYXRpcXVlL3RyYWZpYy1pZGYuaHRtbA==" class="obf">Trafic</span></span>
+<div class="img_bloc trafic">
+   <a href="/pratique/trafic-idf.html">
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="312" height="151" data-src="//s1.lemde.fr/mmpub/img/sytadin/sytadin.jpg" data-lazyload="true" onload="lmd.pic(this);" onerror="lmd.pic(this);" class="lazy-retina" alt=" ">   </a>
+   <p class="opacite"><a href="/pratique/trafic-idf.html" class="mgl16 ">&rsaquo; La circulation en temps réel <br>en Ile-de-France</a>avec Sytadin&nbsp;</p>
+</div>
+</div>    </section>
+  </div>
+  <div class="controls js-controls">
+    <span class="previous" data-slide="previous"><</span>
+    <span class="indicator active" data-slide-to="0"></span>
+    <span class="indicator" data-slide-to="1"></span>
+    <span class="indicator" data-slide-to="2"></span>
+    <span class="next" data-slide="next">></span>
+  </div>
+</div>
+
+
+            <footer class="footer">
+    <a class="subscribe" rel="nofollow" href="https://abo.lemonde.fr#xtor=CS1-263[BOUTONS_LMFR]-[FOOTER]-86-[Article]" onclick="return xt_click(this, 'C', '', 'Abo::Footer', 'N')">
+            <p class="title">
+                <i class="newspaper-brand">Le Monde</i> Abonnements
+            </p>
+            <p class="description">Profitez du journal où et quand vous voulez. Abonnements papier, offres 100% numériques sur Web et tablette.</p>
+            <button class="btn">S'abonner au Monde à partir de 1 €</button>
+        </a>    <div class="connection">
+        <p class="title">Déjà abonné au journal <em>Le Monde</em> ?</p>
+        <ul class="links">
+            <li><a href="https://www.lemonde.fr/sfuser/account" target="_blank" rel="nofollow">Activez votre accès</a> à l'Édition abonnés du Monde.fr</li>
+            <li><a href="https://moncompte.lemonde.fr/" target="_blank" rel="nofollow">Gérez votre abonnement</a></li>
+        </ul>
+    </div>
+
+    <section class="site-index js-site-index">
+        <div class="column">
+            <span data-toggle="collapse" data-parent=".js-site-index" class="column-heading">Les rubriques du Monde.fr</span>
+            <ul class="column-content">
+                    <li><a href="/international/" target="">International</a></li>
+                    <li><a href="/politique/" target="">Politique</a></li>
+                    <li><a href="/societe/" target="">Soci&eacute;t&eacute;</a></li>
+                    <li><a href="/economie/" target="">&Eacute;conomie</a></li>
+                    <li><a href="/culture/" target="">Culture</a></li>
+                    <li><a href="/sport/" target="">Sport</a></li>
+                    <li><a href="/pixels/" target="">Techno</a></li>
+                    <li><a href="/m-styles/" target="">Style</a></li>
+                    <li><a href="/m-perso/" target="">L'&eacute;poque</a></li>
+                    <li><a href="/idees/" target="">Id&eacute;es</a></li>
+                    <li><a href="/planete/" target="">Plan&egrave;te</a></li>
+                    <li><a href="/education/" target="">&Eacute;ducation</a></li>
+                    <li><a href="/disparitions/" target="">Disparitions</a></li>
+                    <li><a href="/sante/" target="">Sant&eacute;</a></li>
+                    <li><a href="/monde-academie/" target="">Monde Acad&eacute;mie</a></li>
+                    <li><a href="/guides-d-achat/" target="">Guides d'achat</a></li>
+                    <li><a href="/les-recettes-du-monde/" target="">Recettes de cuisine</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <span data-toggle="collapse" data-parent=".js-site-index" class="column-heading">Les services du Monde</span>
+            <ul class="column-content">
+                    <li><a href="https://evenements-abonnes.lemonde.fr/" target="">Le Monde &Eacute;v&eacute;nements abonn&eacute;s</a>
+                    <li><a href="/festival/" target="">Le Monde Festival</a>
+                    <li><a href="http://voiture-occasion.lemonde.fr" target="">Annonces auto</a>
+                    <li><a href="http://immobilier.lemonde.fr/" target="">Annonces immo</a>
+                    <li><a href="https://conjugaison.lemonde.fr" target="">Conjugaison</a>
+                    <li><a href="https://anglais.lemonde.fr" target="">Cours d'anglais</a>
+                    <li><a href="/jeux/" target="">Jeux</a>
+                    <li><a href="https://formation-professionnelle.lemonde.fr/" target="">Formation professionnelle</a>
+                    <li><a href="http://boutique.lemonde.fr/#xtor=AD-9" target="_blank">La boutique du Monde</a>
+                    <li><a href="http://prix-immobilier.lemonde.fr/prix-immobilier/" target="">Prix de l'immobilier</a>
+                    <li><a href="http://shopping.lemonde.fr" target="">Shopping</a>
+                    <li><a href="https://www.sourcesure.eu/" target="_blank">Source S&ucirc;re</a>
+                    <li><a href="/pratique/trafic-idf.html" target="">Trafic</a>
+                    <li><a href="/verification/" target="">Decodex</a>
+                    <li><a href="https://progresser-orthographe.lemonde.fr/" target="">Orthographe et grammaire</a>
+            </ul>
+        </div>
+        <div class="column">
+            <span data-toggle="collapse" data-parent=".js-site-index" class="column-heading">Sur le web</span>
+            <ul class="column-content">
+                    <li><a href="http://television.telerama.fr/tele/chaine-tv/france-3,80.php" target="">Programme TV de France 3 en replay</a>
+                    <li><a href="http://www.telerama.fr/music/musique_prefredaction.php" target="">Les derniers albums</a>
+                    <li><a href="http://boutique.telerama.fr/index.php/" target="">Boutique culture</a>
+                    <li><a href="http://television.telerama.fr/tele/liste_chaines.php" target="">Programme chaine tv</a>
+                    <li><a href="http://sortir.telerama.fr/paris/bars.php" target="">Bars &agrave; Paris</a>
+                                    <li><a href="http://boutique.telerama.fr/index.php/hors-series.html" target="">Hors-s&eacute;rie</a>
+                    <li><a href="http://television.telerama.fr/tele/chaine-tv/france-2,4.php" target="">Programme TV de France 2 en replay</a>
+                    <li><a href="http://television.telerama.fr/tele/chaine-tv/arte,111.php" target="">Programme TV de Arte en replay</a>
+                    <li><a href="http://television.telerama.fr/tele/chaine-tv/m6,118.php" target="">Programme TV de M6 en replay</a>
+                    <li><a href="http://television.telerama.fr/television/" target="">T&eacute;l&eacute;vision</a>
+            </ul>
+        </div>
+        <div class="column">
+            <span data-toggle="collapse" data-parent=".js-site-index" class="column-heading">Les sites du Groupe</span>
+            <ul class="column-content">
+                    <li><a href="/service/qui_sommes_nous_telerama.html">T&eacute;l&eacute;rama.fr</a></li>
+                    <li><a href="/service/qui_sommes_nous_talents.html">Talents.fr</a></li>
+                    <li><a href="http://www.huffingtonpost.fr/">Le HuffPost</a></li>
+                    <li><a href="http://www.courrierinternational.com/">CourrierInternational.com</a></li>
+                    <li><a href="http://www.monde-diplomatique.fr/">Monde-Diplomatique.fr</a></li>
+                    <li><a href="http://www.sdllemonde.fr/">La Soci&eacute;t&eacute; des lecteurs du Monde</a></li>
+                    <li><a href="/kiosque/recherche/">Le Prix Le Monde de la recherche</a></li>
+                    <li><a href="https://www.nouvelobs.com/">L'Obs</a></li>
+            </ul>
+        </div>
+        <div class="column">
+            <span data-toggle="collapse" data-parent=".js-site-index" class="column-heading">Partenaires Le Monde</span>
+            <ul class="column-content">
+                    <li><a href="http://dicocitations.lemonde.fr/proverbes-france.php" target="">proverbe fran&ccedil;ais</a></li>
+                                    <li><a href="https://jardinage.lemonde.fr" target="">Jardinage</a></li>
+                                                    <li><a href="https://formation-professionnelle.lemonde.fr/recherche/formation-interculturelle" target="">Formation interculturelle</a></li>
+                                    <li><a href="https://codepromo.lemonde.fr" target="">Codes promo</a></li>
+                    <li><a href="https://codepromo.lemonde.fr/code-promo-norauto" target="">Code promo Norauto</a></li>
+                                    <li><a href="https://paroles2chansons.lemonde.fr/paroles-moha-la-squale/paroles-luna.html" target="">Moha La Squale - Luna</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="follow-links">
+        <div class="column">
+            <span>Suivez-nous</span>
+            <a href="https://www.facebook.com/lemonde.fr" target="_blank" class="icon icon-facebook">Suivez-nous sur Facebook</a>
+            <a href="https://twitter.com/lemondefr" target="_blank" class="icon icon-twitter">Suivez-nous sur Twitter</a>
+            <a href="https://plus.google.com/+LeMondefr/posts" target="_blank" class="icon icon-googleplus">Suivez-nous sur Google Plus</a>
+            <a href="https://instagram.com/lemondefr" target="_blank" title="Suivez LeMonde.fr sur Instagram" class="icon icon-instagram">Instagram</a>
+            <a href="/mobile/" class="icon icon-phone">Suivez-nous sur Mobile</a>
+            <a href="/rss/" class="icon icon-rss">Abonnez-nous à nos flux RSS</a>
+        </div>
+        <a href="https://secure.lemonde.fr/sfuser/newsletters" class="column">Recevez nos newsletters<span class="icon icon-newsletter"></span></a>
+        <div class="column section-index">
+            <a href="/index-rubriques/H/">H</a>
+            <a href="/index-rubriques/Z/">Z</a>
+            <a href="/index-rubriques/F/">F</a>
+            <a href="/index-rubriques/T/">T</a>
+            <a href="/index-rubriques/D/">D</a>
+            <a href="/index-rubriques/R/">R</a>
+            <a href="/index-rubriques/M/">M</a>
+            <a href="/index-rubriques/A/">A</a>
+            <a href="/index-rubriques/Y/">Y</a>
+            <a href="/index-rubriques/I/">I</a>
+            <a href="/index-rubriques/V/">V</a>
+            <a href="/index-rubriques/X/">X</a>
+            <a href="/index-rubriques/N/">N</a>
+            <a href="/index-rubriques/O/">O</a>
+            <a href="/index-rubriques/K/">K</a>
+            <a href="/index-rubriques/G/">G</a>
+            <a href="/index-rubriques/W/">W</a>
+            <a href="/index-rubriques/U/">U</a>
+            <a href="/index-rubriques/P/">P</a>
+            <a href="/index-rubriques/B/">B</a>
+            <a href="/index-rubriques/S/">S</a>
+            <a href="/index-rubriques/Q/">Q</a>
+            <a href="/index-rubriques/F/">E</a>
+            <a href="/index-rubriques/L/">L</a>
+            <a href="/index-rubriques/J/">J</a>
+            <a href="/index-rubriques/C/">C</a>
+        </div>
+    </section>
+    <p class="legal">
+            <a href="/service/licence_et_droits_de_reproduction.html" target="" rel="nofollow">&copy; Le Monde.fr</a>
+            <a href="https://moncompte.lemonde.fr/cgv" target="" rel="nofollow">CGV</a>
+            <a href="http://www.ojd-internet.com/chiffres" target="_blank" rel="nofollow">Fr&eacute;quentation certifi&eacute;e par l'OJD</a>
+            <a href="/service/donnees_personnelles.html" target="" rel="nofollow">Donn&eacute;es personnelles</a>
+            <a href="https://moncompte.lemonde.fr/mentions-legales" target="" rel="nofollow">Mentions l&eacute;gales</a>
+            <a href="/service/qui_sommes_nous.html" target="" rel="nofollow">Qui sommes-nous ?</a>
+            <a href="/actualite-medias/article/2010/11/03/la-charte-d-ethique-et-de-deontologie-du-groupe-le-monde_1434737_3236.html" target="" rel="nofollow">Charte groupe</a>
+            <a href="http://mpublicite.fr" target="_blank" rel="nofollow">Publicit&eacute;</a>
+                    <span>
+                <a href="https://www.lemonde.fr/faq/" target="" rel="nofollow">Aide (FAQ)</a>
+            </span>
+    </p>
+    <p>Journal d'information en ligne, Le Monde.fr offre à ses visiteurs un panorama complet de l'actualité. Découvrez chaque jour toute l'info en direct (de la politique à l'économie en passant par le sport et la météo) sur Le Monde.fr, le site de news leader de la presse française en ligne.</p>
+</footer>
+
+        </div>
+
+           <div id="dfp-dhtml" class="dfp_slot" data-format='dhtml'></div>
+        <script>
+lmd.context.page.advert.adblock=!0;
+
+require(['lmd/core/dfp']);
+</script>
+
+            
+<script>
+    if (window.xtparam) {
+        window.xtparam += '&x3=';
+    } else {
+        window.xtparam = '&x3=';
+    }
+</script>
+
+<script>
+    var blockAdBlock = (function (lmd) {
+        'use strict';
+
+        var blockAdBlock;
+        var fnCallback;
+        var status;
+        // AT Internet x4 values : 1 and 2 are used in script, 3 for noscript and 4 not used here.
+        var adblockStatus = {
+            'YES': 1,
+            'NO': 2,
+            'NOSCRIPT': 3,
+            'NSP': 4
+        };
+
+        var send = function () {
+            require(['lmd/module/xiti/hit'], function (xiti) {
+                if (!xiti.has_hit('Ad_Block::Actif')) {
+                    xiti.hit(this, 'C', '0', 'Ad_Block::Actif', 'A');
+                }
+            });
+        };
+
+        var callXiti = function (adbStatus) {
+            status = adbStatus;
+            if (status === adblockStatus.YES) {
+                send();
+            }
+
+            if (fnCallback) {
+                fnCallback(status);
+            }
+        };
+
+        require(['xitistatus'], function () {
+            blockAdBlock = new BlockAdBlock({
+                checkOnLoad: false,
+                resetOnEnd: true
+            });
+
+            if (blockAdBlock === undefined) {
+                callXiti(adblockStatus.YES);
+            } else {
+                blockAdBlock.onDetected(function () {
+                    callXiti(adblockStatus.YES);
+                });
+
+                blockAdBlock.onNotDetected(function () {
+                    callXiti(adblockStatus.NO);
+                });
+
+                blockAdBlock.check();
+            }
+        }, function (err) {
+            callXiti(adblockStatus.NSP)
+        });
+
+        return {
+            getStatus: function (fn) {
+                if (status) {
+                    fn(status);
+                } else {
+                    fnCallback = fn;
+                }
+            }
+        };
+    }(lmd));
+</script>
+
+<div id="xiti-logo">
+    <script>
+        var xiti = (function (blockAdBlock) {
+            var loadAfter = function (e, fn) {
+                var rs = e.readyState;
+                if (rs && rs !== 'complete' && rs !== 'loaded') {
+                    return;
+                }
+                try {
+                    fn.apply(this);
+                } catch (ex) {
+
+                }
+            },
+
+            loadJs = function (src, onload) {
+                var a = document.createElement('script');
+                a.type = 'text/javascript';
+                a.async = false;
+                a.src = src;
+                if (typeof onload === 'function') {
+                    if (a.addEventListener) {
+                        a.addEventListener('load', function () {
+                            loadAfter(a, onload);
+                        });
+                    } else {
+                        a.attachEvent && a.attachEvent('onreadystatechange', function () {
+                            loadAfter(a, onload);
+                        });
+                    }
+                }
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] || document.getElementsByTagName('script')[0].parentNode).insertBefore(a, null);
+            },
+
+            loadCore = function () {
+                loadJs(lmd.conf.medias.location.base_url_version + '/js/lib/xiti/4.6.4/xtcore.js', function () {
+                    require(['lmd/module/xiti/hit'], function (hit_xiti) {
+                        hit_xiti.resolve();
+                    });
+                });
+                lmd.context.page.xiti_call = true;
+            };
+
+            return {
+                type: {
+                    inscrits: 'INSCRIT'
+                },
+                init: function () {
+                    require(['lmd/ui/refresh', 'jquery'], function (refresh, $) {
+                        window.xtcustom.ir = refresh.isAutoRefreshed().toString();
+                        if (window.xtparam === undefined || window.xtparam === null) {
+                            window.xtparam = '';
+                        }
+
+                        var progDeploy = parseInt($.cookie('prog-deploy2'), 10);
+                        if (typeof(progDeploy) === 'number' && progDeploy >= 0) {
+                            window.xtcustom.RefonteDesktop = progDeploy;
+                        } else {
+                            window.xtcustom.RefonteDesktop = 'false';
+                        }
+
+                        blockAdBlock.getStatus(function (status) {
+                            window.xtparam += '&ac=' + window.xt_ac + '&an=' + window.xt_an + window.xt_multc + '&x4=' + status;
+                            loadJs(lmd.conf.medias.location.base_url_version + '/js/lib/xiti/4.4.007/xtclicks.js', loadCore);
+                        });
+                    })
+                }
+            };
+        })(blockAdBlock);
+
+        xtnv = document;
+        xtsd = (document.location.protocol === 'http:') ? 'http://logc2' : 'https://logs13';
+        xtsite = function() {
+            var viewPortWitdh = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+            var breakpoints = lmd.context.page.xiti.xtbreakpoints || {};
+            var xtsite = lmd.context.page.xiti.xtsite;
+
+            for (var device in breakpoints) {
+                var isValidBreakpoint = true;
+
+                if (breakpoints[device]['min']) {
+                    isValidBreakpoint = viewPortWitdh >= breakpoints[device]['min'];
+                }
+
+                if (isValidBreakpoint && breakpoints[device]['max']) {
+                    isValidBreakpoint = viewPortWitdh <= breakpoints[device]['max'];
+                }
+
+                if (isValidBreakpoint) {
+                    xtsite = lmd.context.page.xiti.xtsites[device];
+                    break;
+                }
+            }
+
+            lmd.context.page.xiti.xtsite = xtsite;
+
+            return xtsite;
+        }();
+        xtn2 = lmd.context.page.xiti.xtn2; 
+        xtcustom = lmd.context.page.xiti.xtcustom; 
+        xtpage = lmd.context.page.xiti.xtpage; 
+        xtergo = lmd.context.page.xiti.xtergo ? '1' : '0'; 
+        xtdi ='';
+        window.xt_an = ''; 
+        window.xt_ac = ''; 
+
+        window.xt_multc = lmd.context.page.xiti.xt_multc;
+        if (window.xt_multc === null) {
+            window.xt_multc = '';
+        }
+
+        xt_tag = lmd.context.page.xiti.xt_tag; 
+        if (xt_tag != null) {
+            if (window.xtparam != null) {
+                window.xtparam += '&tag=' + xt_tag;
+            } else {
+                window.xtparam = '&tag=' + xt_tag;
+            }
+        }
+        var x12 = lmd.context.page.xiti.x12;
+        if (x12 != null) {
+            if (window.xtparam != null) {
+                window.xtparam += '&x12=' + x12;
+            } else {
+                window.xtparam = '&x12=' + x12;
+            }
+        }
+
+        var x5 = lmd.context.page.xiti.x5;
+        if (x5 != null) {
+            if (window.xtparam != null) {
+                window.xtparam += '&x5=' + x5;
+            } else {
+                window.xtparam = '&x5=' + x5;
+            }
+        }
+
+        var element = false;
+        var restreint = false;
+        var tdb_user_id = '';
+
+        if (typeof lmd === 'undefined' || lmd === '') {
+            xiti.init();
+        } else {
+            if (lmd.context !== undefined && lmd.context !== null && lmd.context.element !== undefined && lmd.context.element !== null && lmd.context.element.restreint !== undefined) {
+                element = true;
+                restreint = lmd.context.element.restreint;
+            }
+
+            tdb_user_id = (document.cookie.match('(^|; )tdb_user_id=([^;]*)') || 0)[2];
+            if (tdb_user_id === undefined || tdb_user_id === '') {
+                if (element) {
+                    window.xt_multc += '&x8=' + (restreint ? '24' : '13');
+                }
+                xiti.init();
+            } else {
+                require(['jquery', 'lmd/core/auth'], function ($, a) {
+                    a.loadUser().done(function () {
+                        var params;
+                        var user = a.user;
+                        if (user !== null) {
+                            if (typeof user.magento_id !== "undefined" && user.magento_id) {
+                                window.xt_an = user.magento_id;
+                            } else {
+                                window.xt_an = '';
+                            }
+
+                            if ('inscrit' === user.type) {
+                                window.xt_ac = xiti.type.inscrits;
+
+                                if (element) {
+                                    params = { 'item_id': lmd.context.element.id };
+                                    $.getJSON('/ws/1/restreint/verif_item/', params).done($.proxy(function (response) {
+                                        var achat_acte = response.url !== null && response.url.length > 0;
+                                        window.xt_multc += '&x8=' + (restreint ? (achat_acte ? '23' : '24') : '13');
+
+                                        xiti.init();
+                                    }, this));
+                                } else {
+                                    xiti.init();
+                                }
+                            }
+
+                            else if (user.type === 'abonne') {
+                                if (typeof user.selection_code !== "undefined" && user.selection_code) {
+                                    window.xt_ac = user.selection_code;
+                                }
+
+                                if (element) {
+                                    window.xt_multc += '&x8=' + (restreint ? '23' : '13');
+                                }
+
+                                xiti.init();
+                            }
+                        } else {
+                            xiti.init();
+                        }
+                    });
+                });
+            }
+        }
+    </script>
+    <object>
+        <noscript>
+            <img src="https://logs13.xiti.com/hit.xiti?s=43260&s2=86&p=afrique/developpement::comment-l-eswatini-a-mis-sous-controle-la-double-epidemie-sida-tuberculose&ptype=2-48-0&di=&an=&ac=&x1=&x2=article&x4=3&x12=621557" width="1" height="1" alt="">
+        </noscript>
+    </object>
+
+    <script>
+        (function (w) {
+            require(
+                ['lmd/module/xiti/navigation'],
+                function (xiti) {
+
+                    switch(w.lmd.context.pageType) {
+                        case 'Rubrique_Une': {
+                            xiti.trackHome();
+                            break;
+                        }
+                        case 'Element': {
+                            var type = w.lmd.context.element.type.nom;
+
+                            if (type === 'live') {
+                                xiti.trackLive();
+                            } else if (type === 'article') {
+                                if (w.lmd.context.application === "abonnes") {
+                                    xiti.trackArticleAbonne();
+                                } else if (w.lmd.context.element.restreint) {
+                                    xiti.trackArticleRestreint();
+                                } else {
+                                    xiti.trackArticle();
+                                }
+                            }
+
+                            break;
+                        }
+                    }
+                });
+        }(window));
+    </script>
+</div>
+    <script>
+    if (lmd.conf.fsw.google_analytics) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-15394037-2']);
+        _gaq.push(['_setDomainName', '.lemonde.fr']);
+        _gaq.push(['_setVisitorCookieTimeout', 86400 * 30 * 13 * 1000]); // 13 months in milliseconds
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+        var ga_src_require = ('https:' == document.location.protocol) ? 'https://ssl' : 'http://www';
+        require([ga_src_require + '.google-analytics.com/ga.js']);
+    }
+</script>
+
+
+    <script>if(lmd.conf.fsw.chartbeat){_sf_async_config={uid:12231,domain:"lemonde.fr"};lmd.onload(function(){window._sf_endpt=(new Date).getTime();require([document.location.protocol+"//static.chartbeat.com/js/chartbeat.js"])});}</script>
+
+    <script>lmd.conf.fsw.ownpage && lmd.onload(function(){ require(['lmd/core/metrics/ownpage'], function(op){ op.init(); }); });</script>
+
+    <script> require(['lmd/core/footer-tracking']); </script>
+
+        <script>
+require(['lmd.ui.popover', 'lmd.ui.collapse', 'lmd.ui.sticky', 'lmd.afrique.newsletter', 'lmd.afrique.cookie']);
+require(['fastclick'], function (fastclick) {
+    fastclick.attach(document.body);
+});
+</script>
+
+    </body>
+</html>
+
+<!--Rosae 2018/10/05 23:09:07 4.89 35.36 web04:16345:3.78 httpfront-->

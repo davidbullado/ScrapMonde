@@ -25,7 +25,6 @@ def my_parsedate(text):
 def my_filename(url):
     m = hashlib.md5()
     m.update(url.encode())
-    m.update(hashsources)
     return m.hexdigest()
 
 def simple_get(url):

@@ -18,7 +18,7 @@ class News(Resource):
             del news['link']
         return newslist
 
-api.add_resource(News, '/news')
+api.add_resource(News, '/news/<page>')
 
 class Article(Resource):
     def get(self, hlink):
@@ -33,4 +33,4 @@ api.add_resource(Article, '/article/<hlink>')
 
 #http://127.0.0.1:5002/news
 if __name__ == '__main__':
-     app.run(port='5001')
+     app.run(port='5002')

@@ -34,15 +34,16 @@ api.add_resource(Article, '/article/<hlink>')
 class Home(Resource):
     def get(self, hlink=""):
         newslist = scrap_news(1)
-        url = urlList[hlink]
-        if url is None: 
+        if hlink in urlList:
+            url = urlList[hlink]
+        else:
             url = newslist[0]['link']
         for news in newslist:
             urlList[news['hlink']] = news['link']
             del news['link']
         return { "article": scrap_article(url), "newsList": newslist }
 
-api.add_resource(Home, '/home/<hlink>')
+api.add_resource(Home, '/','/home/<hlink>')
 
 #http://127.0.0.1:5002/news
 if __name__ == '__main__':

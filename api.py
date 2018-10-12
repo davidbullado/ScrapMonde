@@ -32,16 +32,18 @@ class Article(Resource):
 api.add_resource(Article, '/article/<hlink>')
 
 class Home(Resource):
-    def get(self):
+    def get(self, hlink=""):
         newslist = scrap_news(1)
-        url = newslist[0]['link']
+        url = urlList[hlink]
+        if url is None: 
+            url = newslist[0]['link']
         for news in newslist:
             urlList[news['hlink']] = news['link']
             del news['link']
         return { "article": scrap_article(url), "newsList": newslist }
 
-api.add_resource(Home, '/')
+api.add_resource(Home, '/home/<hlink>')
 
 #http://127.0.0.1:5002/news
 if __name__ == '__main__':
-     app.run(port='5002')
+     app.run(port='5001')

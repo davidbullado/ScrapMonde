@@ -62,6 +62,10 @@ def digest_article(html):
             for tag in tagstoremove:
                 tag.extract()
 
+    for tag in art.find_all('p'):
+        if tag.contents == '':
+            tag.extract()
+    
     # Remove conjug tags
     for tag in art.find_all(True):
         if tag.name == "img":

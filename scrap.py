@@ -66,7 +66,10 @@ def digest_article(html):
     for tag in art.find_all(True):
         if tag.name == "img":
             continue
-        if tag.name not in ['a'] or ("class" in tag.attrs and 'conjug' in tag.attrs["class"]):
+        if tag.name == "a" and ("class" in tag.attrs and 'conjug' in tag.attrs["class"]):
+            tag.name = "span"
+            tag.attrs = {}
+        else:
             tag.attrs = {}
     
     # Save article html

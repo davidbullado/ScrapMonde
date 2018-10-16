@@ -52,29 +52,29 @@ def digest_article(html):
         art = html.find("div",class_="global-live")
         if art is not None:
             infos["articleType"] = "live"
-    if art is None:
-        raise Exception ("Article not found.")
+    if art is not None:
+        #raise Exception ("Article not found.")
 
-    # Remove extra tags
-    extractTags = [ art.find_all('script'),  art.find_all('iframe'), art.find_all('figure')]
-    for tagstoremove in extractTags:
-        if tagstoremove is not None:
-            for tag in tagstoremove:
-                tag.extract()
-
-    for tag in art.find_all('p'):
-        if tag.contents == '':
-            tag.extract()
+        # Remove extra tags
+        extractTags = [ art.find_all('script'),  art.find_all('iframe'), art.find_all('figure')]
+        for tagstoremove in extractTags:
+            if tagstoremove is not None:
+                for tag in tagstoremove:
+                    tag.extract()
     
-    # Remove conjug tags
-    for tag in art.find_all(True):
-        if tag.name == "img":
-            continue
-        if tag.name == "a" and ("class" in tag.attrs and 'conjug' in tag.attrs["class"]):
-            tag.name = "span"
-            tag.attrs = {}
-        else:
-            tag.attrs = {}
+        for tag in art.find_all('p'):
+            if tag.contents == '':
+                tag.extract()
+        
+        # Remove conjug tags
+        for tag in art.find_all(True):
+            if tag.name == "img":
+                continue
+            if tag.name == "a" and ("class" in tag.attrs and 'conjug' in tag.attrs["class"]):
+                tag.name = "span"
+                tag.attrs = {}
+            else:
+                tag.attrs = {}
     
     # Save article html
     infos["body"] = str(art)
@@ -107,7 +107,7 @@ def scrap_news(page=1):
     fleuve = html.find_all('div', class_='fleuve')[0]
 
     # ie exclude some categories
-    exclusionList = ['ligue-1','football','athletisme','cyclisme']
+    exclusionList = ['ligue-1','football','athletisme','cyclisme','climat/video','planete/live']
 
     data = []
     idx = 0

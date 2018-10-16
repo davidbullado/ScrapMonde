@@ -8,6 +8,8 @@ from hashlib import md5
 from time import strftime, gmtime
 import dateparser
 
+from hashlink import hash_url
+
 from functools import reduce
 
 def digest_article(html):
@@ -35,7 +37,10 @@ def digest_article(html):
         art = html.find(class_="entry-content")
         if art is not None:
             infos["articleType"] = "blog"
-            art.find("div", class_="wp-caption").extract()
+            try:
+                art.find("div", class_="wp-caption").extract()
+            except:
+                pass
 
     # if grand format
     if art is None:
@@ -65,16 +70,30 @@ def digest_article(html):
     for tag in art.find_all('p'):
         if tag.contents == '':
             tag.extract()
-    
+
     # Remove conjug tags
+    for tag in art.find_all('a', class_='lien_interne conjug'):
+        tag.replaceWithChildren()
+
+    for tag in art.find_all('a'):
+        # internal link
+        if tag.attrs['href'].startswith('/'):
+            tag.attrs['href'] = "/#/article/" + hash_url(tag.attrs['href'])
+        else:
+            # external link, add targer=_blank
+            tag.attrs['target'] = "_blank"
+            tag.attrs['rel'] = "nofollow noreferrer noopener"
+    
     for tag in art.find_all(True):
         if tag.name == "img":
             continue
-        if tag.name == "a" and ("class" in tag.attrs and 'conjug' in tag.attrs["class"]):
+        """
+        if tag.name == "a" and ("class" in tag.attrs and "conjug" in tag.attrs["class"]):
             tag.name = "span"
             tag.attrs = {}
         else:
             tag.attrs = {}
+        """
     
     # Save article html
     infos["body"] = str(art)

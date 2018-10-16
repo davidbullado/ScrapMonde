@@ -2,45 +2,51 @@ import sys
 from flask import Flask, request
 from flask_restful import Resource, Api
 from flask_cors import CORS
-from scrap import scrap_news, scrap_article
+from scrap import scrap_news, scrap_article, get_article_from_disk
+
+from hashlink import hash_url, reverse_hash
+
+from logger import log
 
 app = Flask(__name__)
 CORS(app)
 api = Api(app)
 
-urlList = {}
-
 class News(Resource):
     def get(self, page=1):
         newslist = scrap_news(page)
-        for news in newslist:
-            urlList[news['hlink']] = news['link']
-            del news['link']
         return newslist
 
 api.add_resource(News, '/news/<page>')
 
 class Article(Resource):
     def get(self, hlink):
+        url = ""
         try:
-            url = urlList[hlink]
-            return scrap_article(url)
+            log.debug("Try to resolve "+hlink)
+            url = reverse_hash(hlink)
+            log.debug("OK")
         except KeyError:
-            print(sys.exc_info()[0])
-            return {'body': 'Please Reload'}
+            log.info("Key not found")
+            pass
+
+        if url != "":
+            log.info("Scrap URL "+url)
+            return scrap_article(url)
+        else:
+            log.info("Try to load from disk.")
+            return get_article_from_disk(hlink)
 
 api.add_resource(Article, '/article/<hlink>')
 
 class Home(Resource):
-    def get(self, hlink=""):
+    def get(self, link=""):
         newslist = scrap_news(1)
-        if hlink in urlList:
-            url = urlList[hlink]
+        if (link != ""):
+            url = link
         else:
             url = newslist[0]['link']
-        for news in newslist:
-            urlList[news['hlink']] = news['link']
-            del news['link']
+
         return { "article": scrap_article(url), "newsList": newslist }
 
 api.add_resource(Home, '/','/home/<hlink>')

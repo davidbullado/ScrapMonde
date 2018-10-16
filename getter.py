@@ -5,15 +5,10 @@ from bs4 import BeautifulSoup
 import email.utils as eut
 from datetime import datetime
 import sys
-import hashlib
 from os import utime, path
 from time import mktime, struct_time
 
-hasher = hashlib.md5()
-with open('scrap.py', 'rb') as scrap_src:
-    buf = scrap_src.read()
-    hasher.update(buf)
-    hashsources = hasher.digest()
+from hashlink import hash_url, is_hash
 
 def my_parsedate(text):
     my_dt = datetime(*eut.parsedate(text)[:6])
@@ -22,10 +17,15 @@ def my_parsedate(text):
     
     return inttime
 
-def my_filename(url):
-    m = hashlib.md5()
-    m.update(url.encode())
-    return m.hexdigest()
+def load_from_cache(hashed_url):
+
+    if not is_hash(hashed_url):
+        raise ValueError("Not a valid hash")
+
+    filename = "cache/"+hashed_url
+    
+    f = open(filename,"r")
+    return f.read()
 
 def simple_get(url):
     """
@@ -33,21 +33,28 @@ def simple_get(url):
     If the content-type of response is some kind of HTML/XML, return the
     text content, otherwise return None.
     """
-    filename = "cache/"+my_filename(url)
-
+    filename = "cache/"+hash_url(url)
+    
     if path.isfile(filename):
-        content_mt = 0
-        try:
-            content_mt = my_parsedate(head(url).headers["Last-Modified"])
-        except KeyError:
-            pass
-        if (content_mt == path.getmtime(filename)):
-            f = open(filename,"r")
-            return f.read()
-
+        f = open(filename,"r")
+        return f.read()
+    """
+    content_mt = 0
+    try:
+        content_mt = my_parsedate(head(url).headers["Last-Modified"])
+    except KeyError:
+        print(head(url).headers)
+        pass
+    print('[Test]', content_mt, path.getmtime(filename))
+    if (content_mt == path.getmtime(filename)):
+        print('[CACHED]')
+        f = open(filename,"r")
+        return f.read()
+    """
     try:
         with closing(get(url, stream=True)) as resp:
             if is_good_response(resp):
+                print('[REQUESTED]')
                 f = open(filename,"w+")
                 f.write(resp.text)
                 if "Last-Modified" in resp.headers:

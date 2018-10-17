@@ -34,27 +34,20 @@ def simple_get(url):
     text content, otherwise return None.
     """
     filename = "cache/"+hash_url(url)
-    
-    if path.isfile(filename):
-        f = open(filename,"r")
-        return f.read()
-    """
+
     content_mt = 0
     try:
         content_mt = my_parsedate(head(url).headers["Last-Modified"])
     except KeyError:
         print(head(url).headers)
         pass
-    print('[Test]', content_mt, path.getmtime(filename))
     if (content_mt == path.getmtime(filename)):
-        print('[CACHED]')
         f = open(filename,"r")
         return f.read()
-    """
+
     try:
         with closing(get(url, stream=True)) as resp:
             if is_good_response(resp):
-                print('[REQUESTED]')
                 f = open(filename,"w+")
                 f.write(resp.text)
                 if "Last-Modified" in resp.headers:

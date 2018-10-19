@@ -59,6 +59,10 @@ def digest_article(html):
         if art is None:
             raise Exception ("Article not found.")
 
+        for tag in art.find_all('h2', class_='taille_courante'):
+            tag.name='p'
+            tag.attrs = {}
+
         # Remove extra tags
         extractTags = [ art.find_all('script'),  art.find_all('iframe'), art.find_all('figure')]
         for tagstoremove in extractTags:

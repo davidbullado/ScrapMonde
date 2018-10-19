@@ -6,9 +6,10 @@ import email.utils as eut
 from datetime import datetime
 import sys
 from os import utime, path
-from time import mktime, struct_time
-
+from calendar import timegm
+from time import mktime, struct_time, gmtime
 from hashlink import hash_url, is_hash
+from logger import log
 
 def my_parsedate(text):
     my_dt = datetime(*eut.parsedate(text)[:6])
@@ -35,24 +36,40 @@ def simple_get(url):
     """
     filename = "cache/"+hash_url(url)
 
-    content_mt = 0
+    remote_mt = 0
     try:
-        content_mt = my_parsedate(head(url).headers["Last-Modified"])
+        remote_mt = my_parsedate(head(url).headers["Last-Modified"])
+        log.debug('HTTP Last-Modified: '+str(remote_mt))
     except KeyError:
-        print(head(url).headers)
+        log.warning('No Last-Modified header for '+url)
         pass
-    if (content_mt == path.getmtime(filename)):
-        f = open(filename,"r")
-        return f.read()
+    
+    try:
+        file_mt = path.getmtime(filename)
+        log.debug('File last modified: '+str(file_mt))
+        
+        isCacheValid = False
+        if remote_mt == 0:
+            default_mt = timegm(gmtime()) - 15 * 60
+            isCacheValid = default_mt <= file_mt
+            log.warning('Default last modified: '+str(default_mt))
+        elif remote_mt == file_mt:
+            isCacheValid = True
+
+        if isCacheValid:
+            f = open(filename,"r")
+            return f.read()
+    except FileNotFoundError:
+        log.debug('No candidate for '+filename)
 
     try:
         with closing(get(url, stream=True)) as resp:
             if is_good_response(resp):
                 f = open(filename,"w+")
                 f.write(resp.text)
-                if "Last-Modified" in resp.headers:
-                    lastmodified = my_parsedate(resp.headers["Last-Modified"])
-                    utime(filename, (lastmodified,lastmodified))
+                if remote_mt > 0:
+                    utime(filename, (remote_mt,remote_mt))
+                    log.debug('set last modified: '+str(remote_mt))
                 return resp.text
             else:
                 return None

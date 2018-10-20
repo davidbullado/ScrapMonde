@@ -59,19 +59,21 @@ def digest_article(html):
         if art is None:
             raise Exception ("Article not found.")
 
+        # Remove fake title
         for tag in art.find_all('h2', class_='taille_courante'):
             tag.name='p'
             tag.attrs = {}
 
         # Remove extra tags
-        extractTags = [ art.find_all('script'),  art.find_all('iframe'), art.find_all('figure')]
+        extractTags = [ art.find_all('script'),  art.find_all('iframe')]
         for tagstoremove in extractTags:
             if tagstoremove is not None:
                 for tag in tagstoremove:
                     tag.extract()
 
+        # Remove void paragraph
         for tag in art.find_all('p'):
-            if tag.contents == '':
+            if tag.text.strip() == '':
                 tag.extract()
 
         # Remove conjug tags
@@ -89,18 +91,7 @@ def digest_article(html):
                     # external link, add targer=_blank
                     tag.attrs['target'] = "_blank"
                     tag.attrs['rel'] = "nofollow noreferrer noopener"
-        
-        for tag in art.find_all(True):
-            if tag.name == "img":
-                continue
-            """
-            if tag.name == "a" and ("class" in tag.attrs and "conjug" in tag.attrs["class"]):
-                tag.name = "span"
-                tag.attrs = {}
-            else:
-                tag.attrs = {}
-            """
-    except Exception as e:
+    except Exception:
         log.error("Not able to parse the article")
 
     # Save article html

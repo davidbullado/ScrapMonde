@@ -169,7 +169,9 @@ def scrap_news(page=1):
             else:
                 jsart['link'] = link
             jsart['hlink'] = hash_url(link)
-            jsart['title'] = article.h3.a.text.strip()
+            for string in article.h3.a.stripped_strings:
+                jsart['title'] = string
+                break
             jsart['datetime'] = article.time.get('datetime')
             # remove img
             [s.extract() for s in article('span')]
